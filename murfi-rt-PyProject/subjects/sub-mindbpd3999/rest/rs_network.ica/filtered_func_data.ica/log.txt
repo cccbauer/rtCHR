@@ -1,0 +1,127 @@
+
+Melodic Version 3.15
+
+/home/rt-mgh/fsl/bin/melodic -i filtered_func_data -o filtered_func_data.ica -v --nobet --bgthreshold=3 --tr=1.200000 --report --guireport=../../report.html -d 35 --no_mm 
+---------------------------------------------
+
+Melodic results will be in filtered_func_data.ica
+
+Create mask ... done
+Reading data file filtered_func_data  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+  Normalising by voxel-wise variance ... done
+Excluding voxels with constant value ... done
+
+  Data size : 52 x 188761
+
+Starting PCA  ... done
+Start whitening using  35 dimensions ... 
+  retaining 82.6482 percent of the variability 
+ ... done
+
+Starting ICA estimation using symm
+
+  Step no. 1 change : 0.97797
+  Step no. 2 change : 0.160294
+  Step no. 3 change : 0.0570686
+  Step no. 4 change : 0.0529067
+  Step no. 5 change : 0.0368616
+  Step no. 6 change : 0.0191866
+  Step no. 7 change : 0.0129546
+  Step no. 8 change : 0.00861245
+  Step no. 9 change : 0.00560442
+  Step no. 10 change : 0.0049654
+  Step no. 11 change : 0.00461273
+  Step no. 12 change : 0.00403086
+  Step no. 13 change : 0.00353905
+  Step no. 14 change : 0.00341142
+  Step no. 15 change : 0.0032305
+  Step no. 16 change : 0.00280661
+  Step no. 17 change : 0.00225308
+  Step no. 18 change : 0.00169537
+  Step no. 19 change : 0.00149496
+  Step no. 20 change : 0.00139519
+  Step no. 21 change : 0.00125452
+  Step no. 22 change : 0.00109401
+  Step no. 23 change : 0.00110888
+  Step no. 24 change : 0.00118751
+  Step no. 25 change : 0.00132338
+  Step no. 26 change : 0.00152947
+  Step no. 27 change : 0.00181675
+  Step no. 28 change : 0.00218206
+  Step no. 29 change : 0.00258674
+  Step no. 30 change : 0.00293483
+  Step no. 31 change : 0.00308201
+  Step no. 32 change : 0.00290999
+  Step no. 33 change : 0.00243064
+  Step no. 34 change : 0.00180001
+  Step no. 35 change : 0.00120511
+  Step no. 36 change : 0.000751268
+  Step no. 37 change : 0.000449769
+  Step no. 38 change : 0.000401538
+  Step no. 39 change : 0.000388135
+  Step no. 40 change : 0.000374978
+  Step no. 41 change : 0.000361236
+  Step no. 42 change : 0.000346292
+  Step no. 43 change : 0.000329846
+  Step no. 44 change : 0.000311923
+  Step no. 45 change : 0.000292813
+  Step no. 46 change : 0.00027298
+  Step no. 47 change : 0.000252962
+  Step no. 48 change : 0.000233283
+  Step no. 49 change : 0.000214398
+  Step no. 50 change : 0.000196659
+  Step no. 51 change : 0.000180305
+  Step no. 52 change : 0.000165468
+  Step no. 53 change : 0.000152196
+  Step no. 54 change : 0.000140465
+  Step no. 55 change : 0.000130203
+  Step no. 56 change : 0.000121306
+  Step no. 57 change : 0.00011365
+  Step no. 58 change : 0.000107103
+  Step no. 59 change : 0.000101529
+  Step no. 60 change : 9.67971e-05
+  Step no. 61 change : 9.278e-05
+  Step no. 62 change : 9.11621e-05
+  Step no. 63 change : 9.04474e-05
+  Step no. 64 change : 8.9479e-05
+  Step no. 65 change : 8.82352e-05
+  Step no. 66 change : 8.6704e-05
+  Step no. 67 change : 8.48825e-05
+  Step no. 68 change : 8.27757e-05
+  Step no. 69 change : 8.03965e-05
+  Step no. 70 change : 7.77643e-05
+  Step no. 71 change : 7.49041e-05
+  Step no. 72 change : 7.18457e-05
+  Step no. 73 change : 6.86224e-05
+  Step no. 74 change : 6.52697e-05
+  Step no. 75 change : 6.18245e-05
+  Step no. 76 change : 5.92736e-05
+  Step no. 77 change : 5.67977e-05
+  Step no. 78 change : 5.44463e-05
+  Step no. 79 change : 5.26621e-05
+  Step no. 80 change : 5.06967e-05
+  Step no. 81 change : 4.8587e-05
+  Convergence after 81 steps 
+
+Sorting IC maps
+
+Writing results to : 
+  filtered_func_data.ica/melodic_IC
+  filtered_func_data.ica/melodic_Tmodes
+  filtered_func_data.ica/melodic_mix
+  filtered_func_data.ica/melodic_FTmix
+  filtered_func_data.ica/melodic_ICstats
+  filtered_func_data.ica/mask
+...done
+Creating report index page ...done
+
+
+Creating web report in filtered_func_data.ica/report 
+  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+
+ To view the output report point your web browser at filtered_func_data.ica/report/00index.html
+
+finished!
+

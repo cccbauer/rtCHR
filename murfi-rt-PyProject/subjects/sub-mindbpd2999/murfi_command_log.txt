@@ -1,0 +1,11 @@
+[2025-04-02_13:08:37] source feedback.sh sub-mindbpd2999 setup
+[2025-04-02_13:19:52] source feedback.sh sub-mindbpd2999 2vol
+[2025-04-02_13:20:42] source feedback.sh sub-mindbpd2999 resting_state
+[2025-04-02_13:35:39] source feedback.sh sub-mindbpd2999 extract_rs_networks
+[2025-04-02_13:36:55] source feedback.sh sub-mindbpd2999 extract_rs_networks
+[2025-04-02_13:38:35] source feedback.sh sub-mindbpd2999 process_roi_masks
+[2025-04-02_13:39:24] source feedback.sh sub-mindbpd2999 register
+[2025-04-02_13:40:58] source feedback.sh sub-mindbpd2999 2vol
+[2025-04-02_13:42:30] source feedback.sh sub-mindbpd2999 register
+[2025-04-02_13:43:03] source feedback.sh sub-mindbpd2999 feedback
+[2025-04-02_13:47:20] source feedback.sh sub-mindbpd2999 feedback

@@ -1,0 +1,16 @@
+
+/bin/cp /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/scripts/../subjects/sub-mindbpd3999/rest/sub-mindbpd3999_ses-lo1_task-rest_run-01_bold.fsf design.fsf
+
+mkdir .files;cp /home/rt-mgh/fsl/doc/fsl.css .files;cp -r /home/rt-mgh/fsl/doc/images .files/images
+
+/home/rt-mgh/fsl/bin/fsl_sub -T 10 -l logs -N feat1a_init   /home/rt-mgh/fsl/bin/feat /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica/design.fsf -D /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica -I 1 -init
+128034
+
+/home/rt-mgh/fsl/bin/fsl_sub -T 5 -l logs -N feat2_pre -j 128034  /home/rt-mgh/fsl/bin/feat /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica/design.fsf -D /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica -I 1 -prestats
+128347
+
+/home/rt-mgh/fsl/bin/fsl_sub -T 30 -l logs -N feat4_ica -j 128347  /home/rt-mgh/fsl/bin/melodic -i filtered_func_data -o filtered_func_data.ica -v --nobet --bgthreshold=3 --tr=1.200000 --report --guireport=../../report.html -d 35 --no_mm
+129466
+
+/home/rt-mgh/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 129466  /home/rt-mgh/fsl/bin/feat /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica/design.fsf -D /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd3999/rest/rs_network.ica -stop
+129520

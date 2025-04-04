@@ -1,0 +1,164 @@
+
+Melodic Version 3.15
+
+Melodic results will be in filtered_func_data.ica
+
+Create mask ... done
+Reading data file filtered_func_data  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+  Normalising by voxel-wise variance ... done
+Excluding voxels with constant value ... done
+
+  Data size : 46 x 188677
+
+Starting PCA  ... done
+Start whitening using  35 dimensions ... 
+  retaining 88.9643 percent of the variability 
+ ... done
+
+Starting ICA estimation using symm
+
+  Step no. 1 change : 0.942577
+  Step no. 2 change : 0.143269
+  Step no. 3 change : 0.0671475
+  Step no. 4 change : 0.0225123
+  Step no. 5 change : 0.0146539
+  Step no. 6 change : 0.0138228
+  Step no. 7 change : 0.0105365
+  Step no. 8 change : 0.00678633
+  Step no. 9 change : 0.00601553
+  Step no. 10 change : 0.00555361
+  Step no. 11 change : 0.00496264
+  Step no. 12 change : 0.00433886
+  Step no. 13 change : 0.00375608
+  Step no. 14 change : 0.00403022
+  Step no. 15 change : 0.00436372
+  Step no. 16 change : 0.00420444
+  Step no. 17 change : 0.00364489
+  Step no. 18 change : 0.00352076
+  Step no. 19 change : 0.00378325
+  Step no. 20 change : 0.00353236
+  Step no. 21 change : 0.00279595
+  Step no. 22 change : 0.00225307
+  Step no. 23 change : 0.00176125
+  Step no. 24 change : 0.00136233
+  Step no. 25 change : 0.0010681
+  Step no. 26 change : 0.000854701
+  Step no. 27 change : 0.000696317
+  Step no. 28 change : 0.000574489
+  Step no. 29 change : 0.000477738
+  Step no. 30 change : 0.000399239
+  Step no. 31 change : 0.000356643
+  Step no. 32 change : 0.000333846
+  Step no. 33 change : 0.000312371
+  Step no. 34 change : 0.000303936
+  Step no. 35 change : 0.000294743
+  Step no. 36 change : 0.000284502
+  Step no. 37 change : 0.000273059
+  Step no. 38 change : 0.000260406
+  Step no. 39 change : 0.000246677
+  Step no. 40 change : 0.000232125
+  Step no. 41 change : 0.00021709
+  Step no. 42 change : 0.000201956
+  Step no. 43 change : 0.000191762
+  Step no. 44 change : 0.000187607
+  Step no. 45 change : 0.000186288
+  Step no. 46 change : 0.000191325
+  Step no. 47 change : 0.000196502
+  Step no. 48 change : 0.000201579
+  Step no. 49 change : 0.000206296
+  Step no. 50 change : 0.000210385
+  Step no. 51 change : 0.000213586
+  Step no. 52 change : 0.00021566
+  Step no. 53 change : 0.00021641
+  Step no. 54 change : 0.000215692
+  Step no. 55 change : 0.000213433
+  Step no. 56 change : 0.000221199
+  Step no. 57 change : 0.00025334
+  Step no. 58 change : 0.000291483
+  Step no. 59 change : 0.000335971
+  Step no. 60 change : 0.000386786
+  Step no. 61 change : 0.000443388
+  Step no. 62 change : 0.000504545
+  Step no. 63 change : 0.000568206
+  Step no. 64 change : 0.000631459
+  Step no. 65 change : 0.000690618
+  Step no. 66 change : 0.00074151
+  Step no. 67 change : 0.000779936
+  Step no. 68 change : 0.000802268
+  Step no. 69 change : 0.000806074
+  Step no. 70 change : 0.000790601
+  Step no. 71 change : 0.00075699
+  Step no. 72 change : 0.000708121
+  Step no. 73 change : 0.000648142
+  Step no. 74 change : 0.000581763
+  Step no. 75 change : 0.000513543
+  Step no. 76 change : 0.000447305
+  Step no. 77 change : 0.000385814
+  Step no. 78 change : 0.000330712
+  Step no. 79 change : 0.000284448
+  Step no. 80 change : 0.000280175
+  Step no. 81 change : 0.000308555
+  Step no. 82 change : 0.000341661
+  Step no. 83 change : 0.000379497
+  Step no. 84 change : 0.000421708
+  Step no. 85 change : 0.000467159
+  Step no. 86 change : 0.000513715
+  Step no. 87 change : 0.000558171
+  Step no. 88 change : 0.000596405
+  Step no. 89 change : 0.000623874
+  Step no. 90 change : 0.00063642
+  Step no. 91 change : 0.000631231
+  Step no. 92 change : 0.000607629
+  Step no. 93 change : 0.000567369
+  Step no. 94 change : 0.000545921
+  Step no. 95 change : 0.000559236
+  Step no. 96 change : 0.000564602
+  Step no. 97 change : 0.000562324
+  Step no. 98 change : 0.0005527
+  Step no. 99 change : 0.000536015
+  Step no. 100 change : 0.000512662
+  Step no. 101 change : 0.000483278
+  Step no. 102 change : 0.00044883
+  Step no. 103 change : 0.000410609
+  Step no. 104 change : 0.000370131
+  Step no. 105 change : 0.000328972
+  Step no. 106 change : 0.000288602
+  Step no. 107 change : 0.000250247
+  Step no. 108 change : 0.000214809
+  Step no. 109 change : 0.000182848
+  Step no. 110 change : 0.000154613
+  Step no. 111 change : 0.000130098
+  Step no. 112 change : 0.0001163
+  Step no. 113 change : 0.000104805
+  Step no. 114 change : 9.44754e-05
+  Step no. 115 change : 8.52049e-05
+  Step no. 116 change : 7.68847e-05
+  Step no. 117 change : 6.94117e-05
+  Step no. 118 change : 6.26915e-05
+  Step no. 119 change : 5.66401e-05
+  Step no. 120 change : 5.11834e-05
+  Step no. 121 change : 4.62571e-05
+  Convergence after 121 steps 
+
+Sorting IC maps
+
+Writing results to : 
+  filtered_func_data.ica/melodic_IC
+  filtered_func_data.ica/melodic_Tmodes
+  filtered_func_data.ica/melodic_mix
+  filtered_func_data.ica/melodic_FTmix
+  filtered_func_data.ica/melodic_ICstats
+  filtered_func_data.ica/mask
+...done
+Creating report index page ...done
+
+
+Creating web report in filtered_func_data.ica/report 
+  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+
+ To view the output report point your web browser at filtered_func_data.ica/report/00index.html
+
+finished!
+

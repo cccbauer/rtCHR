@@ -1,0 +1,2250 @@
+################################################################
+
+# realtime system log file
+created 2025/4/2 13:19:53.449854
+
+configured the mosaic
+configuration:
+--------------
++ study
+  + name=rtDMN
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 2
+  + option
+    + name=save
+    + true
+  + >
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+--------------
+
+initialization completed at 2025/4/2 13:19:53.449990
+began running at 2025/4/2 13:19:53.450156
+received image from scanner: series 11 acquisition 1
+received image from scanner: series 11 acquisition 2
+################################################################
+
+# realtime system log file
+created 2025/4/2 13:20:43.579576
+
+configured the mosaic
+configuration:
+--------------
++ study
+  + name=remind
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 250
+  + option
+    + name=save
+    + true
+  + >
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+--------------
+
+initialization completed at 2025/4/2 13:20:43.579698
+began running at 2025/4/2 13:20:43.579969
+received image from scanner: series 13 acquisition 1
+received image from scanner: series 13 acquisition 2
+received image from scanner: series 13 acquisition 3
+received image from scanner: series 13 acquisition 4
+received image from scanner: series 13 acquisition 5
+received image from scanner: series 13 acquisition 6
+received image from scanner: series 13 acquisition 7
+received image from scanner: series 13 acquisition 8
+received image from scanner: series 13 acquisition 9
+received image from scanner: series 13 acquisition 10
+received image from scanner: series 13 acquisition 11
+received image from scanner: series 13 acquisition 12
+received image from scanner: series 13 acquisition 13
+received image from scanner: series 13 acquisition 14
+received image from scanner: series 13 acquisition 15
+received image from scanner: series 13 acquisition 16
+received image from scanner: series 13 acquisition 17
+received image from scanner: series 13 acquisition 18
+received image from scanner: series 13 acquisition 19
+received image from scanner: series 13 acquisition 20
+received image from scanner: series 13 acquisition 21
+received image from scanner: series 13 acquisition 22
+received image from scanner: series 13 acquisition 23
+received image from scanner: series 13 acquisition 24
+received image from scanner: series 13 acquisition 25
+received image from scanner: series 13 acquisition 26
+received image from scanner: series 13 acquisition 27
+received image from scanner: series 13 acquisition 28
+received image from scanner: series 13 acquisition 29
+received image from scanner: series 13 acquisition 30
+received image from scanner: series 13 acquisition 31
+received image from scanner: series 13 acquisition 32
+received image from scanner: series 13 acquisition 33
+received image from scanner: series 13 acquisition 34
+received image from scanner: series 13 acquisition 35
+received image from scanner: series 13 acquisition 36
+received image from scanner: series 13 acquisition 37
+received image from scanner: series 13 acquisition 38
+received image from scanner: series 13 acquisition 39
+received image from scanner: series 13 acquisition 40
+received image from scanner: series 13 acquisition 41
+received image from scanner: series 13 acquisition 42
+received image from scanner: series 13 acquisition 43
+received image from scanner: series 13 acquisition 44
+received image from scanner: series 13 acquisition 45
+received image from scanner: series 13 acquisition 46
+received image from scanner: series 13 acquisition 47
+################################################################
+
+# realtime system log file
+created 2025/4/2 13:40:59.349180
+
+configured the mosaic
+configuration:
+--------------
++ study
+  + name=rtDMN
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 2
+  + option
+    + name=save
+    + true
+  + >
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+--------------
+
+initialization completed at 2025/4/2 13:40:59.349355
+began running at 2025/4/2 13:40:59.349475
+received image from scanner: series 6 acquisition 1
+received image from scanner: series 6 acquisition 2
+################################################################
+
+# realtime system log file
+created 2025/4/2 13:43:3.974789
+
+configured the mosaic
+configured the mask-gen
+configured the mask-load
+configured the mask-load
+configured the incremental-glm
+configured the current-activation
+configured the roi-combine
+configured the roi-combine
+configuration:
+--------------
++ study
+  + name=rtDMN
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 150
+  + option
+    + name=saveImages
+    + true
+  + option
+    + name=receiveImages
+    + true
+  + option
+    + name=onlyReadMoCo
+    + true
+  + option
+    + name=preHeader
+    + true
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+  + module
+    + name=mask-gen
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + brain
+    + option
+      + name=threshold
+      + 0.5
+    + option
+      + name=useBet
+      + false
+    + option
+      + name=betParms
+      + -f 0.5 -g 0 -n -m
+    + option
+      + name=dynamic
+      + false
+    + option
+      + name=save
+      + true
+  + module
+    + name=mask-load
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + dmn
+    + option
+      + name=filename
+      + dmn
+    + option
+      + name=align
+      + true
+    + option
+      + name=save
+      + true
+  + module
+    + name=mask-load
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + cen
+    + option
+      + name=filename
+      + cen
+    + option
+      + name=align
+      + true
+    + option
+      + name=save
+      + true
+  + module
+    + name=incremental-glm
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + output
+      + display
+    + option
+      + name=maskRoiID
+      + brain
+    + design
+      + option
+        + name=disabled
+        + false
+      + option
+        + name=modelMotionDerivatives
+        + true
+      + option
+        + name=maxTrendOrder
+        + 1
+      + option
+        + name=condition
+        + conditionName=Regulation
+        + 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      + option
+        + name=conditionShift
+        + 25
+  + module
+    + name=current-activation
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=print
+      + true
+    + option
+      + name=modelFitModuleID
+      + incremental-glm
+    + option
+      + name=modelFitRoiID
+      + brain
+    + option
+      + name=maskRoiID
+      + brain
+    + option
+      + name=numDataPointsForErrEst
+      + 25
+  + module
+    + name=roi-combine
+    + output
+      + infoserver
+    + output
+      + display
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=print
+      + true
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=method
+      + weighted-ave
+    + option
+      + name=maskRoiID
+      + dmn
+    + option
+      + name=inputModuleID
+      + current-activation
+    + option
+      + name=inputDataName
+      + activation-img
+    + option
+      + name=inputRoiID
+      + brain
+    + option
+      + name=weightModuleID
+      + incremental-glm
+    + option
+      + name=weightDataName
+      + residual_mse-img
+  + module
+    + name=roi-combine
+    + output
+      + infoserver
+    + output
+      + display
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=print
+      + true
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=method
+      + weighted-ave
+    + option
+      + name=maskRoiID
+      + cen
+    + option
+      + name=inputModuleID
+      + current-activation
+    + option
+      + name=inputDataName
+      + activation-img
+    + option
+      + name=inputRoiID
+      + brain
+    + option
+      + name=weightModuleID
+      + incremental-glm
+    + option
+      + name=weightDataName
+      + residual_mse-img
+--------------
+
+initialization completed at 2025/4/2 13:43:3.978237
+began running at 2025/4/2 13:43:3.978385
+received image from scanner: series 8 acquisition 1
+maskgen: produced mask brain of 208823 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series8_brain.nii
+received image from scanner: series 8 acquisition 2
+received image from scanner: series 8 acquisition 3
+received image from scanner: series 8 acquisition 4
+received image from scanner: series 8 acquisition 5
+maskload: loaded mask dmn of 490 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series8_dmn.nii
+maskload: loaded mask cen of 225 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series8_cen.nii
+RtIncrementalGLM: done at tr 1
+RtCurrentActivation: done at tr 1
+RtRoiCombine: dmn at tr 1 result is: 0
+RtRoiCombine: cen at tr 1 result is: 0
+RtIncrementalGLM: done at tr 2
+RtCurrentActivation: done at tr 2
+RtRoiCombine: dmn at tr 2 result is: 0
+RtRoiCombine: cen at tr 2 result is: 0
+RtIncrementalGLM: done at tr 3
+RtCurrentActivation: done at tr 3
+RtRoiCombine: dmn at tr 3 result is: 0
+RtRoiCombine: cen at tr 3 result is: 0
+RtIncrementalGLM: done at tr 4
+RtCurrentActivation: done at tr 4
+RtRoiCombine: dmn at tr 4 result is: 0
+RtRoiCombine: cen at tr 4 result is: 0
+RtIncrementalGLM: done at tr 5
+RtCurrentActivation: done at tr 5
+RtRoiCombine: dmn at tr 5 result is: 0
+RtRoiCombine: cen at tr 5 result is: 0
+received image from scanner: series 8 acquisition 6
+RtIncrementalGLM: done at tr 6
+RtCurrentActivation: done at tr 6
+RtRoiCombine: dmn at tr 6 result is: -0.0627315
+RtRoiCombine: cen at tr 6 result is: -0.141071
+received image from scanner: series 8 acquisition 7
+RtIncrementalGLM: done at tr 7
+RtCurrentActivation: done at tr 7
+RtRoiCombine: dmn at tr 7 result is: -0.155227
+RtRoiCombine: cen at tr 7 result is: -0.164475
+received image from scanner: series 8 acquisition 8
+RtIncrementalGLM: done at tr 8
+RtCurrentActivation: done at tr 8
+RtRoiCombine: dmn at tr 8 result is: 5.48474e-16
+RtRoiCombine: cen at tr 8 result is: 3.30888e-15
+received image from scanner: series 8 acquisition 9
+RtIncrementalGLM: done at tr 9
+RtCurrentActivation: done at tr 9
+RtRoiCombine: dmn at tr 9 result is: -0.0889139
+RtRoiCombine: cen at tr 9 result is: 0.12857
+received image from scanner: series 8 acquisition 10
+RtIncrementalGLM: done at tr 10
+RtCurrentActivation: done at tr 10
+RtRoiCombine: dmn at tr 10 result is: -4.56141e-15
+RtRoiCombine: cen at tr 10 result is: -5.93955e-15
+received image from scanner: series 8 acquisition 11
+RtIncrementalGLM: done at tr 11
+RtCurrentActivation: done at tr 11
+RtRoiCombine: dmn at tr 11 result is: 4.3845e-15
+RtRoiCombine: cen at tr 11 result is: 7.12236e-15
+received image from scanner: series 8 acquisition 12
+RtIncrementalGLM: done at tr 12
+RtCurrentActivation: done at tr 12
+RtRoiCombine: dmn at tr 12 result is: -0.00961717
+RtRoiCombine: cen at tr 12 result is: 0.0580691
+received image from scanner: series 8 acquisition 13
+RtIncrementalGLM: done at tr 13
+RtCurrentActivation: done at tr 13
+RtRoiCombine: dmn at tr 13 result is: 0.0243906
+RtRoiCombine: cen at tr 13 result is: -0.0676727
+received image from scanner: series 8 acquisition 14
+RtIncrementalGLM: done at tr 14
+RtCurrentActivation: done at tr 14
+RtRoiCombine: dmn at tr 14 result is: -0.0633754
+RtRoiCombine: cen at tr 14 result is: -0.11571
+received image from scanner: series 8 acquisition 15
+RtIncrementalGLM: done at tr 15
+RtCurrentActivation: done at tr 15
+RtRoiCombine: dmn at tr 15 result is: -0.0403875
+RtRoiCombine: cen at tr 15 result is: 0.0184724
+received image from scanner: series 8 acquisition 16
+RtIncrementalGLM: done at tr 16
+RtCurrentActivation: done at tr 16
+RtRoiCombine: dmn at tr 16 result is: -0.0267331
+RtRoiCombine: cen at tr 16 result is: 0.0172721
+received image from scanner: series 8 acquisition 17
+RtIncrementalGLM: done at tr 17
+RtCurrentActivation: done at tr 17
+RtRoiCombine: dmn at tr 17 result is: -0.0230257
+RtRoiCombine: cen at tr 17 result is: 0.0564776
+received image from scanner: series 8 acquisition 18
+RtIncrementalGLM: done at tr 18
+RtCurrentActivation: done at tr 18
+RtRoiCombine: dmn at tr 18 result is: -0.0160808
+RtRoiCombine: cen at tr 18 result is: -0.0365434
+received image from scanner: series 8 acquisition 19
+RtIncrementalGLM: done at tr 19
+RtCurrentActivation: done at tr 19
+RtRoiCombine: dmn at tr 19 result is: 0.0127034
+RtRoiCombine: cen at tr 19 result is: 0.0493041
+received image from scanner: series 8 acquisition 20
+RtIncrementalGLM: done at tr 20
+RtCurrentActivation: done at tr 20
+RtRoiCombine: dmn at tr 20 result is: -0.0397756
+RtRoiCombine: cen at tr 20 result is: -0.057647
+received image from scanner: series 8 acquisition 21
+RtIncrementalGLM: done at tr 21
+RtCurrentActivation: done at tr 21
+RtRoiCombine: dmn at tr 21 result is: 0.152301
+RtRoiCombine: cen at tr 21 result is: 0.110603
+received image from scanner: series 8 acquisition 22
+RtIncrementalGLM: done at tr 22
+RtCurrentActivation: done at tr 22
+RtRoiCombine: dmn at tr 22 result is: 0.0659843
+RtRoiCombine: cen at tr 22 result is: -0.00735806
+received image from scanner: series 8 acquisition 23
+RtIncrementalGLM: done at tr 23
+RtCurrentActivation: done at tr 23
+RtRoiCombine: dmn at tr 23 result is: 0.0133939
+RtRoiCombine: cen at tr 23 result is: -0.200594
+received image from scanner: series 8 acquisition 24
+RtIncrementalGLM: done at tr 24
+RtCurrentActivation: done at tr 24
+RtRoiCombine: dmn at tr 24 result is: -0.0134234
+RtRoiCombine: cen at tr 24 result is: -0.0541077
+received image from scanner: series 8 acquisition 25
+RtIncrementalGLM: done at tr 25
+RtCurrentActivation: done at tr 25
+RtRoiCombine: dmn at tr 25 result is: 0.108696
+RtRoiCombine: cen at tr 25 result is: -0.00629159
+received image from scanner: series 8 acquisition 26
+RtIncrementalGLM: done at tr 26
+RtCurrentActivation: done at tr 26
+RtRoiCombine: dmn at tr 26 result is: -0.0577295
+RtRoiCombine: cen at tr 26 result is: 0.00961513
+received image from scanner: series 8 acquisition 27
+RtIncrementalGLM: done at tr 27
+RtCurrentActivation: done at tr 27
+RtRoiCombine: dmn at tr 27 result is: -0.0114663
+RtRoiCombine: cen at tr 27 result is: 0.0310409
+received image from scanner: series 8 acquisition 28
+RtIncrementalGLM: done at tr 28
+RtCurrentActivation: done at tr 28
+RtRoiCombine: dmn at tr 28 result is: 0.0467137
+RtRoiCombine: cen at tr 28 result is: 0.0862222
+received image from scanner: series 8 acquisition 29
+RtIncrementalGLM: done at tr 29
+RtCurrentActivation: done at tr 29
+RtRoiCombine: dmn at tr 29 result is: 0.00339644
+RtRoiCombine: cen at tr 29 result is: 0.0763444
+received image from scanner: series 8 acquisition 30
+RtIncrementalGLM: done at tr 30
+RtCurrentActivation: done at tr 30
+RtRoiCombine: dmn at tr 30 result is: -0.0354671
+RtRoiCombine: cen at tr 30 result is: -0.207033
+received image from scanner: series 8 acquisition 31
+RtIncrementalGLM: done at tr 31
+RtCurrentActivation: done at tr 31
+RtRoiCombine: dmn at tr 31 result is: 0.0477715
+RtRoiCombine: cen at tr 31 result is: 0.162176
+received image from scanner: series 8 acquisition 32
+RtIncrementalGLM: done at tr 32
+RtCurrentActivation: done at tr 32
+RtRoiCombine: dmn at tr 32 result is: -0.0211971
+RtRoiCombine: cen at tr 32 result is: -0.062961
+received image from scanner: series 8 acquisition 33
+RtIncrementalGLM: done at tr 33
+RtCurrentActivation: done at tr 33
+RtRoiCombine: dmn at tr 33 result is: -0.00721289
+RtRoiCombine: cen at tr 33 result is: -0.0466319
+received image from scanner: series 8 acquisition 34
+RtIncrementalGLM: done at tr 34
+RtCurrentActivation: done at tr 34
+RtRoiCombine: dmn at tr 34 result is: -0.0508929
+RtRoiCombine: cen at tr 34 result is: 0.0223453
+received image from scanner: series 8 acquisition 35
+RtIncrementalGLM: done at tr 35
+RtCurrentActivation: done at tr 35
+RtRoiCombine: dmn at tr 35 result is: -0.0664618
+RtRoiCombine: cen at tr 35 result is: 0.153605
+received image from scanner: series 8 acquisition 36
+RtIncrementalGLM: done at tr 36
+RtCurrentActivation: done at tr 36
+RtRoiCombine: dmn at tr 36 result is: -0.0278412
+RtRoiCombine: cen at tr 36 result is: 0.0371024
+received image from scanner: series 8 acquisition 37
+RtIncrementalGLM: done at tr 37
+RtCurrentActivation: done at tr 37
+RtRoiCombine: dmn at tr 37 result is: -0.0715385
+RtRoiCombine: cen at tr 37 result is: -0.0479774
+received image from scanner: series 8 acquisition 38
+RtIncrementalGLM: done at tr 38
+RtCurrentActivation: done at tr 38
+RtRoiCombine: dmn at tr 38 result is: -0.00348614
+RtRoiCombine: cen at tr 38 result is: 0.24608
+received image from scanner: series 8 acquisition 39
+RtIncrementalGLM: done at tr 39
+RtCurrentActivation: done at tr 39
+RtRoiCombine: dmn at tr 39 result is: 0.0490603
+RtRoiCombine: cen at tr 39 result is: 0.0561376
+received image from scanner: series 8 acquisition 40
+RtIncrementalGLM: done at tr 40
+RtCurrentActivation: done at tr 40
+RtRoiCombine: dmn at tr 40 result is: -0.0568026
+RtRoiCombine: cen at tr 40 result is: -0.0213681
+received image from scanner: series 8 acquisition 41
+RtIncrementalGLM: done at tr 41
+RtCurrentActivation: done at tr 41
+RtRoiCombine: dmn at tr 41 result is: -0.10927
+RtRoiCombine: cen at tr 41 result is: -0.0150232
+received image from scanner: series 8 acquisition 42
+RtIncrementalGLM: done at tr 42
+RtCurrentActivation: done at tr 42
+RtRoiCombine: dmn at tr 42 result is: -0.104467
+RtRoiCombine: cen at tr 42 result is: 0.049564
+received image from scanner: series 8 acquisition 43
+RtIncrementalGLM: done at tr 43
+RtCurrentActivation: done at tr 43
+RtRoiCombine: dmn at tr 43 result is: -0.0435835
+RtRoiCombine: cen at tr 43 result is: 0.0378984
+received image from scanner: series 8 acquisition 44
+RtIncrementalGLM: done at tr 44
+RtCurrentActivation: done at tr 44
+RtRoiCombine: dmn at tr 44 result is: -0.0381201
+RtRoiCombine: cen at tr 44 result is: 0.025914
+received image from scanner: series 8 acquisition 45
+RtIncrementalGLM: done at tr 45
+RtCurrentActivation: done at tr 45
+RtRoiCombine: dmn at tr 45 result is: -0.0754702
+RtRoiCombine: cen at tr 45 result is: 0.0222524
+received image from scanner: series 8 acquisition 46
+RtIncrementalGLM: done at tr 46
+RtCurrentActivation: done at tr 46
+RtRoiCombine: dmn at tr 46 result is: -0.115354
+RtRoiCombine: cen at tr 46 result is: 0.144264
+received image from scanner: series 8 acquisition 47
+RtIncrementalGLM: done at tr 47
+RtCurrentActivation: done at tr 47
+RtRoiCombine: dmn at tr 47 result is: -0.0221543
+RtRoiCombine: cen at tr 47 result is: 0.0366316
+received image from scanner: series 8 acquisition 48
+RtIncrementalGLM: done at tr 48
+RtCurrentActivation: done at tr 48
+RtRoiCombine: dmn at tr 48 result is: -0.0195266
+RtRoiCombine: cen at tr 48 result is: 0.0190221
+received image from scanner: series 8 acquisition 49
+RtIncrementalGLM: done at tr 49
+RtCurrentActivation: done at tr 49
+RtRoiCombine: dmn at tr 49 result is: -0.140778
+RtRoiCombine: cen at tr 49 result is: -0.0761669
+received image from scanner: series 8 acquisition 50
+RtIncrementalGLM: done at tr 50
+RtCurrentActivation: done at tr 50
+RtRoiCombine: dmn at tr 50 result is: -0.00814468
+RtRoiCombine: cen at tr 50 result is: 0.0698756
+received image from scanner: series 8 acquisition 51
+RtIncrementalGLM: done at tr 51
+RtCurrentActivation: done at tr 51
+RtRoiCombine: dmn at tr 51 result is: -0.0495219
+RtRoiCombine: cen at tr 51 result is: -0.058911
+received image from scanner: series 8 acquisition 52
+RtIncrementalGLM: done at tr 52
+RtCurrentActivation: done at tr 52
+RtRoiCombine: dmn at tr 52 result is: -0.0660822
+RtRoiCombine: cen at tr 52 result is: 0.0960489
+received image from scanner: series 8 acquisition 53
+RtIncrementalGLM: done at tr 53
+RtCurrentActivation: done at tr 53
+RtRoiCombine: dmn at tr 53 result is: -0.0710395
+RtRoiCombine: cen at tr 53 result is: 0.0128256
+received image from scanner: series 8 acquisition 54
+RtIncrementalGLM: done at tr 54
+RtCurrentActivation: done at tr 54
+RtRoiCombine: dmn at tr 54 result is: -0.0968713
+RtRoiCombine: cen at tr 54 result is: -0.0177621
+received image from scanner: series 8 acquisition 55
+RtIncrementalGLM: done at tr 55
+RtCurrentActivation: done at tr 55
+RtRoiCombine: dmn at tr 55 result is: -0.0119324
+RtRoiCombine: cen at tr 55 result is: 0.114295
+received image from scanner: series 8 acquisition 56
+RtIncrementalGLM: done at tr 56
+RtCurrentActivation: done at tr 56
+RtRoiCombine: dmn at tr 56 result is: -0.0145974
+RtRoiCombine: cen at tr 56 result is: 0.00438328
+received image from scanner: series 8 acquisition 57
+RtIncrementalGLM: done at tr 57
+RtCurrentActivation: done at tr 57
+RtRoiCombine: dmn at tr 57 result is: 0.00626598
+RtRoiCombine: cen at tr 57 result is: 0.118554
+received image from scanner: series 8 acquisition 58
+RtIncrementalGLM: done at tr 58
+RtCurrentActivation: done at tr 58
+RtRoiCombine: dmn at tr 58 result is: 0.00816979
+RtRoiCombine: cen at tr 58 result is: -0.0451755
+received image from scanner: series 8 acquisition 59
+RtIncrementalGLM: done at tr 59
+RtCurrentActivation: done at tr 59
+RtRoiCombine: dmn at tr 59 result is: -0.0741631
+RtRoiCombine: cen at tr 59 result is: 0.111752
+received image from scanner: series 8 acquisition 60
+RtIncrementalGLM: done at tr 60
+RtCurrentActivation: done at tr 60
+RtRoiCombine: dmn at tr 60 result is: 0.0821191
+RtRoiCombine: cen at tr 60 result is: 0.0523296
+received image from scanner: series 8 acquisition 61
+RtIncrementalGLM: done at tr 61
+RtCurrentActivation: done at tr 61
+RtRoiCombine: dmn at tr 61 result is: -0.131938
+RtRoiCombine: cen at tr 61 result is: 0.00765307
+received image from scanner: series 8 acquisition 62
+RtIncrementalGLM: done at tr 62
+RtCurrentActivation: done at tr 62
+RtRoiCombine: dmn at tr 62 result is: -0.0374152
+RtRoiCombine: cen at tr 62 result is: 0.154625
+received image from scanner: series 8 acquisition 63
+RtIncrementalGLM: done at tr 63
+RtCurrentActivation: done at tr 63
+RtRoiCombine: dmn at tr 63 result is: 0.0452522
+RtRoiCombine: cen at tr 63 result is: 0.191507
+received image from scanner: series 8 acquisition 64
+RtIncrementalGLM: done at tr 64
+RtCurrentActivation: done at tr 64
+RtRoiCombine: dmn at tr 64 result is: -0.0237852
+RtRoiCombine: cen at tr 64 result is: -0.0776509
+received image from scanner: series 8 acquisition 65
+RtIncrementalGLM: done at tr 65
+RtCurrentActivation: done at tr 65
+RtRoiCombine: dmn at tr 65 result is: -0.124648
+RtRoiCombine: cen at tr 65 result is: 0.234256
+received image from scanner: series 8 acquisition 66
+RtIncrementalGLM: done at tr 66
+RtCurrentActivation: done at tr 66
+RtRoiCombine: dmn at tr 66 result is: -0.0294519
+RtRoiCombine: cen at tr 66 result is: 0.0352777
+received image from scanner: series 8 acquisition 67
+RtIncrementalGLM: done at tr 67
+RtCurrentActivation: done at tr 67
+RtRoiCombine: dmn at tr 67 result is: 0.0674406
+RtRoiCombine: cen at tr 67 result is: 0.00725902
+received image from scanner: series 8 acquisition 68
+RtIncrementalGLM: done at tr 68
+RtCurrentActivation: done at tr 68
+RtRoiCombine: dmn at tr 68 result is: -0.0658514
+RtRoiCombine: cen at tr 68 result is: 0.128734
+received image from scanner: series 8 acquisition 69
+RtIncrementalGLM: done at tr 69
+RtCurrentActivation: done at tr 69
+RtRoiCombine: dmn at tr 69 result is: 0.0122778
+RtRoiCombine: cen at tr 69 result is: -0.00719759
+received image from scanner: series 8 acquisition 70
+RtIncrementalGLM: done at tr 70
+RtCurrentActivation: done at tr 70
+RtRoiCombine: dmn at tr 70 result is: -0.0811062
+RtRoiCombine: cen at tr 70 result is: 0.0650237
+received image from scanner: series 8 acquisition 71
+RtIncrementalGLM: done at tr 71
+RtCurrentActivation: done at tr 71
+RtRoiCombine: dmn at tr 71 result is: -0.047461
+RtRoiCombine: cen at tr 71 result is: 0.0761528
+received image from scanner: series 8 acquisition 72
+RtIncrementalGLM: done at tr 72
+RtCurrentActivation: done at tr 72
+RtRoiCombine: dmn at tr 72 result is: -0.0750536
+RtRoiCombine: cen at tr 72 result is: -0.0225271
+received image from scanner: series 8 acquisition 73
+RtIncrementalGLM: done at tr 73
+RtCurrentActivation: done at tr 73
+RtRoiCombine: dmn at tr 73 result is: 0.0467832
+RtRoiCombine: cen at tr 73 result is: 0.109792
+received image from scanner: series 8 acquisition 74
+RtIncrementalGLM: done at tr 74
+RtCurrentActivation: done at tr 74
+RtRoiCombine: dmn at tr 74 result is: 0.0434529
+RtRoiCombine: cen at tr 74 result is: 0.060704
+received image from scanner: series 8 acquisition 75
+RtIncrementalGLM: done at tr 75
+RtCurrentActivation: done at tr 75
+RtRoiCombine: dmn at tr 75 result is: 0.00413195
+RtRoiCombine: cen at tr 75 result is: -0.0144222
+received image from scanner: series 8 acquisition 76
+RtIncrementalGLM: done at tr 76
+RtCurrentActivation: done at tr 76
+RtRoiCombine: dmn at tr 76 result is: 0.0361612
+RtRoiCombine: cen at tr 76 result is: -0.227791
+received image from scanner: series 8 acquisition 77
+RtIncrementalGLM: done at tr 77
+RtCurrentActivation: done at tr 77
+RtRoiCombine: dmn at tr 77 result is: 0.00656407
+RtRoiCombine: cen at tr 77 result is: 0.132686
+received image from scanner: series 8 acquisition 78
+RtIncrementalGLM: done at tr 78
+RtCurrentActivation: done at tr 78
+RtRoiCombine: dmn at tr 78 result is: 0.00953519
+RtRoiCombine: cen at tr 78 result is: 0.103121
+received image from scanner: series 8 acquisition 79
+RtIncrementalGLM: done at tr 79
+RtCurrentActivation: done at tr 79
+RtRoiCombine: dmn at tr 79 result is: 0.122321
+RtRoiCombine: cen at tr 79 result is: -0.0156644
+received image from scanner: series 8 acquisition 80
+RtIncrementalGLM: done at tr 80
+RtCurrentActivation: done at tr 80
+RtRoiCombine: dmn at tr 80 result is: 0.0526621
+RtRoiCombine: cen at tr 80 result is: -0.0880047
+received image from scanner: series 8 acquisition 81
+RtIncrementalGLM: done at tr 81
+RtCurrentActivation: done at tr 81
+RtRoiCombine: dmn at tr 81 result is: 0.0409588
+RtRoiCombine: cen at tr 81 result is: -0.0970629
+received image from scanner: series 8 acquisition 82
+RtIncrementalGLM: done at tr 82
+RtCurrentActivation: done at tr 82
+RtRoiCombine: dmn at tr 82 result is: 0.0973738
+RtRoiCombine: cen at tr 82 result is: -0.0112821
+received image from scanner: series 8 acquisition 83
+RtIncrementalGLM: done at tr 83
+RtCurrentActivation: done at tr 83
+RtRoiCombine: dmn at tr 83 result is: 0.138415
+RtRoiCombine: cen at tr 83 result is: 0.105252
+received image from scanner: series 8 acquisition 84
+RtIncrementalGLM: done at tr 84
+RtCurrentActivation: done at tr 84
+RtRoiCombine: dmn at tr 84 result is: 0.0220509
+RtRoiCombine: cen at tr 84 result is: 0.0245636
+received image from scanner: series 8 acquisition 85
+RtIncrementalGLM: done at tr 85
+RtCurrentActivation: done at tr 85
+RtRoiCombine: dmn at tr 85 result is: 0.0374103
+RtRoiCombine: cen at tr 85 result is: -0.0387357
+received image from scanner: series 8 acquisition 86
+RtIncrementalGLM: done at tr 86
+RtCurrentActivation: done at tr 86
+RtRoiCombine: dmn at tr 86 result is: 0.0887427
+RtRoiCombine: cen at tr 86 result is: 0.0475547
+received image from scanner: series 8 acquisition 87
+RtIncrementalGLM: done at tr 87
+RtCurrentActivation: done at tr 87
+RtRoiCombine: dmn at tr 87 result is: 0.014177
+RtRoiCombine: cen at tr 87 result is: -0.0476128
+received image from scanner: series 8 acquisition 88
+RtIncrementalGLM: done at tr 88
+RtCurrentActivation: done at tr 88
+RtRoiCombine: dmn at tr 88 result is: 0.0285277
+RtRoiCombine: cen at tr 88 result is: 0.0282208
+received image from scanner: series 8 acquisition 89
+RtIncrementalGLM: done at tr 89
+RtCurrentActivation: done at tr 89
+RtRoiCombine: dmn at tr 89 result is: 0.0304327
+RtRoiCombine: cen at tr 89 result is: -0.118878
+received image from scanner: series 8 acquisition 90
+RtIncrementalGLM: done at tr 90
+RtCurrentActivation: done at tr 90
+RtRoiCombine: dmn at tr 90 result is: -0.0305559
+RtRoiCombine: cen at tr 90 result is: -0.00685007
+received image from scanner: series 8 acquisition 91
+RtIncrementalGLM: done at tr 91
+RtCurrentActivation: done at tr 91
+RtRoiCombine: dmn at tr 91 result is: 0.101118
+RtRoiCombine: cen at tr 91 result is: -0.0844975
+received image from scanner: series 8 acquisition 92
+RtIncrementalGLM: done at tr 92
+RtCurrentActivation: done at tr 92
+RtRoiCombine: dmn at tr 92 result is: -0.103873
+RtRoiCombine: cen at tr 92 result is: -0.0314991
+received image from scanner: series 8 acquisition 93
+RtIncrementalGLM: done at tr 93
+RtCurrentActivation: done at tr 93
+RtRoiCombine: dmn at tr 93 result is: 0.00794444
+RtRoiCombine: cen at tr 93 result is: 0.00704268
+received image from scanner: series 8 acquisition 94
+RtIncrementalGLM: done at tr 94
+RtCurrentActivation: done at tr 94
+RtRoiCombine: dmn at tr 94 result is: -0.0726061
+RtRoiCombine: cen at tr 94 result is: -0.00885471
+received image from scanner: series 8 acquisition 95
+RtIncrementalGLM: done at tr 95
+RtCurrentActivation: done at tr 95
+RtRoiCombine: dmn at tr 95 result is: 0.0567021
+RtRoiCombine: cen at tr 95 result is: 0.0828172
+received image from scanner: series 8 acquisition 96
+RtIncrementalGLM: done at tr 96
+RtCurrentActivation: done at tr 96
+RtRoiCombine: dmn at tr 96 result is: 0.113903
+RtRoiCombine: cen at tr 96 result is: 0.0770282
+received image from scanner: series 8 acquisition 97
+RtIncrementalGLM: done at tr 97
+RtCurrentActivation: done at tr 97
+RtRoiCombine: dmn at tr 97 result is: -0.0238307
+RtRoiCombine: cen at tr 97 result is: -0.154721
+received image from scanner: series 8 acquisition 98
+RtIncrementalGLM: done at tr 98
+RtCurrentActivation: done at tr 98
+RtRoiCombine: dmn at tr 98 result is: 0.0982333
+RtRoiCombine: cen at tr 98 result is: -0.0106482
+received image from scanner: series 8 acquisition 99
+RtIncrementalGLM: done at tr 99
+RtCurrentActivation: done at tr 99
+RtRoiCombine: dmn at tr 99 result is: 0.107944
+RtRoiCombine: cen at tr 99 result is: 0.0288401
+received image from scanner: series 8 acquisition 100
+RtIncrementalGLM: done at tr 100
+RtCurrentActivation: done at tr 100
+RtRoiCombine: dmn at tr 100 result is: 0.128044
+RtRoiCombine: cen at tr 100 result is: -0.0154119
+received image from scanner: series 8 acquisition 101
+RtIncrementalGLM: done at tr 101
+RtCurrentActivation: done at tr 101
+RtRoiCombine: dmn at tr 101 result is: -0.0398913
+RtRoiCombine: cen at tr 101 result is: 0.0677057
+received image from scanner: series 8 acquisition 102
+RtIncrementalGLM: done at tr 102
+RtCurrentActivation: done at tr 102
+RtRoiCombine: dmn at tr 102 result is: 0.0306848
+RtRoiCombine: cen at tr 102 result is: 0.0787264
+received image from scanner: series 8 acquisition 103
+RtIncrementalGLM: done at tr 103
+RtCurrentActivation: done at tr 103
+RtRoiCombine: dmn at tr 103 result is: -9.79205e-05
+RtRoiCombine: cen at tr 103 result is: 0.109527
+received image from scanner: series 8 acquisition 104
+RtIncrementalGLM: done at tr 104
+RtCurrentActivation: done at tr 104
+RtRoiCombine: dmn at tr 104 result is: 0.0535717
+RtRoiCombine: cen at tr 104 result is: 0.0813797
+received image from scanner: series 8 acquisition 105
+RtIncrementalGLM: done at tr 105
+RtCurrentActivation: done at tr 105
+RtRoiCombine: dmn at tr 105 result is: -0.148236
+RtRoiCombine: cen at tr 105 result is: -0.148546
+received image from scanner: series 8 acquisition 106
+RtIncrementalGLM: done at tr 106
+RtCurrentActivation: done at tr 106
+RtRoiCombine: dmn at tr 106 result is: 0.018465
+RtRoiCombine: cen at tr 106 result is: -0.0370658
+received image from scanner: series 8 acquisition 107
+RtIncrementalGLM: done at tr 107
+RtCurrentActivation: done at tr 107
+RtRoiCombine: dmn at tr 107 result is: 0.093679
+RtRoiCombine: cen at tr 107 result is: 0.0896249
+received image from scanner: series 8 acquisition 108
+RtIncrementalGLM: done at tr 108
+RtCurrentActivation: done at tr 108
+RtRoiCombine: dmn at tr 108 result is: -0.0374165
+RtRoiCombine: cen at tr 108 result is: -0.104732
+received image from scanner: series 8 acquisition 109
+RtIncrementalGLM: done at tr 109
+RtCurrentActivation: done at tr 109
+RtRoiCombine: dmn at tr 109 result is: -0.0370005
+RtRoiCombine: cen at tr 109 result is: -0.0363484
+received image from scanner: series 8 acquisition 110
+RtIncrementalGLM: done at tr 110
+RtCurrentActivation: done at tr 110
+RtRoiCombine: dmn at tr 110 result is: -0.0323508
+RtRoiCombine: cen at tr 110 result is: 0.0186143
+received image from scanner: series 8 acquisition 111
+RtIncrementalGLM: done at tr 111
+RtCurrentActivation: done at tr 111
+RtRoiCombine: dmn at tr 111 result is: 0.00873805
+RtRoiCombine: cen at tr 111 result is: -0.0483285
+received image from scanner: series 8 acquisition 112
+RtIncrementalGLM: done at tr 112
+RtCurrentActivation: done at tr 112
+RtRoiCombine: dmn at tr 112 result is: -0.00325077
+RtRoiCombine: cen at tr 112 result is: 0.0182071
+received image from scanner: series 8 acquisition 113
+RtIncrementalGLM: done at tr 113
+RtCurrentActivation: done at tr 113
+RtRoiCombine: dmn at tr 113 result is: -0.171449
+RtRoiCombine: cen at tr 113 result is: 0.0630547
+received image from scanner: series 8 acquisition 114
+RtIncrementalGLM: done at tr 114
+RtCurrentActivation: done at tr 114
+RtRoiCombine: dmn at tr 114 result is: -0.0399142
+RtRoiCombine: cen at tr 114 result is: 0.000507588
+received image from scanner: series 8 acquisition 115
+RtIncrementalGLM: done at tr 115
+RtCurrentActivation: done at tr 115
+RtRoiCombine: dmn at tr 115 result is: -0.170399
+RtRoiCombine: cen at tr 115 result is: 0.083831
+received image from scanner: series 8 acquisition 116
+RtIncrementalGLM: done at tr 116
+RtCurrentActivation: done at tr 116
+RtRoiCombine: dmn at tr 116 result is: -0.0829145
+RtRoiCombine: cen at tr 116 result is: 0.129432
+received image from scanner: series 8 acquisition 117
+RtIncrementalGLM: done at tr 117
+RtCurrentActivation: done at tr 117
+RtRoiCombine: dmn at tr 117 result is: 0.0538048
+RtRoiCombine: cen at tr 117 result is: -0.19663
+received image from scanner: series 8 acquisition 118
+RtIncrementalGLM: done at tr 118
+RtCurrentActivation: done at tr 118
+RtRoiCombine: dmn at tr 118 result is: -0.0175315
+RtRoiCombine: cen at tr 118 result is: 0.127289
+received image from scanner: series 8 acquisition 119
+RtIncrementalGLM: done at tr 119
+RtCurrentActivation: done at tr 119
+RtRoiCombine: dmn at tr 119 result is: 0.0146765
+RtRoiCombine: cen at tr 119 result is: -0.10573
+received image from scanner: series 8 acquisition 120
+RtIncrementalGLM: done at tr 120
+RtCurrentActivation: done at tr 120
+RtRoiCombine: dmn at tr 120 result is: 0.0569776
+RtRoiCombine: cen at tr 120 result is: 0.0633502
+received image from scanner: series 8 acquisition 121
+RtIncrementalGLM: done at tr 121
+RtCurrentActivation: done at tr 121
+RtRoiCombine: dmn at tr 121 result is: 0.090573
+RtRoiCombine: cen at tr 121 result is: 0.0998627
+received image from scanner: series 8 acquisition 122
+RtIncrementalGLM: done at tr 122
+RtCurrentActivation: done at tr 122
+RtRoiCombine: dmn at tr 122 result is: 0.0802039
+RtRoiCombine: cen at tr 122 result is: 0.11383
+received image from scanner: series 8 acquisition 123
+RtIncrementalGLM: done at tr 123
+RtCurrentActivation: done at tr 123
+RtRoiCombine: dmn at tr 123 result is: -0.107746
+RtRoiCombine: cen at tr 123 result is: 0.0858807
+received image from scanner: series 8 acquisition 124
+RtIncrementalGLM: done at tr 124
+RtCurrentActivation: done at tr 124
+RtRoiCombine: dmn at tr 124 result is: -0.110847
+RtRoiCombine: cen at tr 124 result is: -0.0753468
+received image from scanner: series 8 acquisition 125
+RtIncrementalGLM: done at tr 125
+RtCurrentActivation: done at tr 125
+RtRoiCombine: dmn at tr 125 result is: 0.0539823
+RtRoiCombine: cen at tr 125 result is: 0.0683566
+received image from scanner: series 8 acquisition 126
+RtIncrementalGLM: done at tr 126
+RtCurrentActivation: done at tr 126
+RtRoiCombine: dmn at tr 126 result is: 0.000226581
+RtRoiCombine: cen at tr 126 result is: 0.0628875
+received image from scanner: series 8 acquisition 127
+RtIncrementalGLM: done at tr 127
+RtCurrentActivation: done at tr 127
+RtRoiCombine: dmn at tr 127 result is: -0.0643118
+RtRoiCombine: cen at tr 127 result is: -0.0607205
+received image from scanner: series 8 acquisition 128
+RtIncrementalGLM: done at tr 128
+RtCurrentActivation: done at tr 128
+RtRoiCombine: dmn at tr 128 result is: -0.060869
+RtRoiCombine: cen at tr 128 result is: -0.118229
+received image from scanner: series 8 acquisition 129
+RtIncrementalGLM: done at tr 129
+RtCurrentActivation: done at tr 129
+RtRoiCombine: dmn at tr 129 result is: 0.136892
+RtRoiCombine: cen at tr 129 result is: -0.1282
+received image from scanner: series 8 acquisition 130
+RtIncrementalGLM: done at tr 130
+RtCurrentActivation: done at tr 130
+RtRoiCombine: dmn at tr 130 result is: 0.0557546
+RtRoiCombine: cen at tr 130 result is: 0.0403987
+received image from scanner: series 8 acquisition 131
+RtIncrementalGLM: done at tr 131
+RtCurrentActivation: done at tr 131
+RtRoiCombine: dmn at tr 131 result is: -0.0192216
+RtRoiCombine: cen at tr 131 result is: -0.147113
+received image from scanner: series 8 acquisition 132
+RtIncrementalGLM: done at tr 132
+RtCurrentActivation: done at tr 132
+RtRoiCombine: dmn at tr 132 result is: 0.12215
+RtRoiCombine: cen at tr 132 result is: 0.0789041
+received image from scanner: series 8 acquisition 133
+RtIncrementalGLM: done at tr 133
+RtCurrentActivation: done at tr 133
+RtRoiCombine: dmn at tr 133 result is: -0.0049559
+RtRoiCombine: cen at tr 133 result is: 0.048755
+received image from scanner: series 8 acquisition 134
+RtIncrementalGLM: done at tr 134
+RtCurrentActivation: done at tr 134
+RtRoiCombine: dmn at tr 134 result is: -0.0593077
+RtRoiCombine: cen at tr 134 result is: 0.00203756
+received image from scanner: series 8 acquisition 135
+RtIncrementalGLM: done at tr 135
+RtCurrentActivation: done at tr 135
+RtRoiCombine: dmn at tr 135 result is: -0.0641772
+RtRoiCombine: cen at tr 135 result is: -0.0291698
+received image from scanner: series 8 acquisition 136
+RtIncrementalGLM: done at tr 136
+RtCurrentActivation: done at tr 136
+RtRoiCombine: dmn at tr 136 result is: 0.0511093
+RtRoiCombine: cen at tr 136 result is: -0.0607756
+received image from scanner: series 8 acquisition 137
+RtIncrementalGLM: done at tr 137
+RtCurrentActivation: done at tr 137
+RtRoiCombine: dmn at tr 137 result is: -0.041207
+RtRoiCombine: cen at tr 137 result is: 0.200199
+received image from scanner: series 8 acquisition 138
+RtIncrementalGLM: done at tr 138
+RtCurrentActivation: done at tr 138
+RtRoiCombine: dmn at tr 138 result is: -0.162926
+RtRoiCombine: cen at tr 138 result is: -0.0322609
+received image from scanner: series 8 acquisition 139
+RtIncrementalGLM: done at tr 139
+RtCurrentActivation: done at tr 139
+RtRoiCombine: dmn at tr 139 result is: -0.0172686
+RtRoiCombine: cen at tr 139 result is: -0.143707
+received image from scanner: series 8 acquisition 140
+RtIncrementalGLM: done at tr 140
+RtCurrentActivation: done at tr 140
+RtRoiCombine: dmn at tr 140 result is: -0.0142378
+RtRoiCombine: cen at tr 140 result is: -0.0103357
+received image from scanner: series 8 acquisition 141
+RtIncrementalGLM: done at tr 141
+RtCurrentActivation: done at tr 141
+RtRoiCombine: dmn at tr 141 result is: -0.0652853
+RtRoiCombine: cen at tr 141 result is: 0.0954092
+received image from scanner: series 8 acquisition 142
+RtIncrementalGLM: done at tr 142
+RtCurrentActivation: done at tr 142
+RtRoiCombine: dmn at tr 142 result is: -0.0504059
+RtRoiCombine: cen at tr 142 result is: -0.0837427
+received image from scanner: series 8 acquisition 143
+RtIncrementalGLM: done at tr 143
+RtCurrentActivation: done at tr 143
+RtRoiCombine: dmn at tr 143 result is: -0.0664531
+RtRoiCombine: cen at tr 143 result is: -0.0440616
+received image from scanner: series 8 acquisition 144
+RtIncrementalGLM: done at tr 144
+RtCurrentActivation: done at tr 144
+RtRoiCombine: dmn at tr 144 result is: -0.106837
+RtRoiCombine: cen at tr 144 result is: 0.0915555
+received image from scanner: series 8 acquisition 145
+RtIncrementalGLM: done at tr 145
+RtCurrentActivation: done at tr 145
+RtRoiCombine: dmn at tr 145 result is: -0.00860925
+RtRoiCombine: cen at tr 145 result is: -0.0242834
+received image from scanner: series 8 acquisition 146
+RtIncrementalGLM: done at tr 146
+RtCurrentActivation: done at tr 146
+RtRoiCombine: dmn at tr 146 result is: -0.0619349
+RtRoiCombine: cen at tr 146 result is: 0.0163136
+received image from scanner: series 8 acquisition 147
+RtIncrementalGLM: done at tr 147
+RtCurrentActivation: done at tr 147
+RtRoiCombine: dmn at tr 147 result is: -0.0798215
+RtRoiCombine: cen at tr 147 result is: -0.0371029
+received image from scanner: series 8 acquisition 148
+RtIncrementalGLM: done at tr 148
+RtCurrentActivation: done at tr 148
+RtRoiCombine: dmn at tr 148 result is: 0.114235
+RtRoiCombine: cen at tr 148 result is: -0.037725
+received image from scanner: series 8 acquisition 149
+RtIncrementalGLM: done at tr 149
+RtCurrentActivation: done at tr 149
+RtRoiCombine: dmn at tr 149 result is: -0.00938621
+RtRoiCombine: cen at tr 149 result is: -0.0729046
+received image from scanner: series 8 acquisition 150
+RtIncrementalGLM: done at tr 150
+RtCurrentActivation: done at tr 150
+RtRoiCombine: dmn at tr 150 result is: 0.116878
+RtRoiCombine: cen at tr 150 result is: 0.168988
+################################################################
+
+# realtime system log file
+created 2025/4/2 13:47:21.764032
+
+configured the mosaic
+configured the mask-gen
+configured the mask-load
+configured the mask-load
+configured the incremental-glm
+configured the current-activation
+configured the roi-combine
+configured the roi-combine
+configuration:
+--------------
++ study
+  + name=rtDMN
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 150
+  + option
+    + name=saveImages
+    + true
+  + option
+    + name=receiveImages
+    + true
+  + option
+    + name=onlyReadMoCo
+    + true
+  + option
+    + name=preHeader
+    + true
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+  + module
+    + name=mask-gen
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + brain
+    + option
+      + name=threshold
+      + 0.5
+    + option
+      + name=useBet
+      + false
+    + option
+      + name=betParms
+      + -f 0.5 -g 0 -n -m
+    + option
+      + name=dynamic
+      + false
+    + option
+      + name=save
+      + true
+  + module
+    + name=mask-load
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + dmn
+    + option
+      + name=filename
+      + dmn
+    + option
+      + name=align
+      + true
+    + option
+      + name=save
+      + true
+  + module
+    + name=mask-load
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=roiID
+      + cen
+    + option
+      + name=filename
+      + cen
+    + option
+      + name=align
+      + true
+    + option
+      + name=save
+      + true
+  + module
+    + name=incremental-glm
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + output
+      + display
+    + option
+      + name=maskRoiID
+      + brain
+    + design
+      + option
+        + name=disabled
+        + false
+      + option
+        + name=modelMotionDerivatives
+        + true
+      + option
+        + name=maxTrendOrder
+        + 1
+      + option
+        + name=condition
+        + conditionName=Regulation
+        + 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+      + option
+        + name=conditionShift
+        + 25
+  + module
+    + name=current-activation
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=print
+      + true
+    + option
+      + name=modelFitModuleID
+      + incremental-glm
+    + option
+      + name=modelFitRoiID
+      + brain
+    + option
+      + name=maskRoiID
+      + brain
+    + option
+      + name=numDataPointsForErrEst
+      + 25
+  + module
+    + name=roi-combine
+    + output
+      + infoserver
+    + output
+      + display
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=print
+      + true
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=method
+      + weighted-ave
+    + option
+      + name=maskRoiID
+      + dmn
+    + option
+      + name=inputModuleID
+      + current-activation
+    + option
+      + name=inputDataName
+      + activation-img
+    + option
+      + name=inputRoiID
+      + brain
+    + option
+      + name=weightModuleID
+      + incremental-glm
+    + option
+      + name=weightDataName
+      + residual_mse-img
+  + module
+    + name=roi-combine
+    + output
+      + infoserver
+    + output
+      + display
+    + option
+      + name=disabled
+      + false
+    + option
+      + name=print
+      + true
+    + option
+      + name=makeavail
+      + true
+    + option
+      + name=method
+      + weighted-ave
+    + option
+      + name=maskRoiID
+      + cen
+    + option
+      + name=inputModuleID
+      + current-activation
+    + option
+      + name=inputDataName
+      + activation-img
+    + option
+      + name=inputRoiID
+      + brain
+    + option
+      + name=weightModuleID
+      + incremental-glm
+    + option
+      + name=weightDataName
+      + residual_mse-img
+--------------
+
+initialization completed at 2025/4/2 13:47:21.774222
+began running at 2025/4/2 13:47:21.774444
+received image from scanner: series 10 acquisition 1
+maskgen: produced mask brain of 208878 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series10_brain.nii
+received image from scanner: series 10 acquisition 2
+received image from scanner: series 10 acquisition 3
+received image from scanner: series 10 acquisition 4
+maskload: loaded mask dmn of 490 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series10_dmn.nii
+maskload: loaded mask cen of 225 voxels and saved to /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/mask/series10_cen.nii
+RtIncrementalGLM: done at tr 1
+RtCurrentActivation: done at tr 1
+RtRoiCombine: dmn at tr 1 result is: 0
+RtRoiCombine: cen at tr 1 result is: 0
+RtIncrementalGLM: done at tr 2
+RtCurrentActivation: done at tr 2
+RtRoiCombine: dmn at tr 2 result is: 0
+RtRoiCombine: cen at tr 2 result is: 0
+RtIncrementalGLM: done at tr 3
+RtCurrentActivation: done at tr 3
+RtRoiCombine: dmn at tr 3 result is: 0
+RtRoiCombine: cen at tr 3 result is: 0
+RtIncrementalGLM: done at tr 4
+RtCurrentActivation: done at tr 4
+RtRoiCombine: dmn at tr 4 result is: 0
+RtRoiCombine: cen at tr 4 result is: 0
+received image from scanner: series 10 acquisition 5
+RtIncrementalGLM: done at tr 5
+RtCurrentActivation: done at tr 5
+RtRoiCombine: dmn at tr 5 result is: 0
+RtRoiCombine: cen at tr 5 result is: 0
+received image from scanner: series 10 acquisition 6
+RtIncrementalGLM: done at tr 6
+RtCurrentActivation: done at tr 6
+RtRoiCombine: dmn at tr 6 result is: -0.00210922
+RtRoiCombine: cen at tr 6 result is: 0.0755148
+received image from scanner: series 10 acquisition 7
+RtIncrementalGLM: done at tr 7
+RtCurrentActivation: done at tr 7
+RtRoiCombine: dmn at tr 7 result is: 0.0199411
+RtRoiCombine: cen at tr 7 result is: -0.00550019
+received image from scanner: series 10 acquisition 8
+RtIncrementalGLM: done at tr 8
+RtCurrentActivation: done at tr 8
+RtRoiCombine: dmn at tr 8 result is: 0.0477591
+RtRoiCombine: cen at tr 8 result is: -0.269774
+received image from scanner: series 10 acquisition 9
+RtIncrementalGLM: done at tr 9
+RtCurrentActivation: done at tr 9
+RtRoiCombine: dmn at tr 9 result is: -0.00205962
+RtRoiCombine: cen at tr 9 result is: -0.00334665
+received image from scanner: series 10 acquisition 10
+RtIncrementalGLM: done at tr 10
+RtCurrentActivation: done at tr 10
+RtRoiCombine: dmn at tr 10 result is: 0.101942
+RtRoiCombine: cen at tr 10 result is: -0.101152
+received image from scanner: series 10 acquisition 11
+RtIncrementalGLM: done at tr 11
+RtCurrentActivation: done at tr 11
+RtRoiCombine: dmn at tr 11 result is: -0.0360421
+RtRoiCombine: cen at tr 11 result is: -0.0057848
+received image from scanner: series 10 acquisition 12
+RtIncrementalGLM: done at tr 12
+RtCurrentActivation: done at tr 12
+RtRoiCombine: dmn at tr 12 result is: -0.0112776
+RtRoiCombine: cen at tr 12 result is: -0.0285861
+received image from scanner: series 10 acquisition 13
+RtIncrementalGLM: done at tr 13
+RtCurrentActivation: done at tr 13
+RtRoiCombine: dmn at tr 13 result is: 0.0475377
+RtRoiCombine: cen at tr 13 result is: -0.0915075
+received image from scanner: series 10 acquisition 14
+RtIncrementalGLM: done at tr 14
+RtCurrentActivation: done at tr 14
+RtRoiCombine: dmn at tr 14 result is: -0.122938
+RtRoiCombine: cen at tr 14 result is: -0.0909643
+received image from scanner: series 10 acquisition 15
+RtIncrementalGLM: done at tr 15
+RtCurrentActivation: done at tr 15
+RtRoiCombine: dmn at tr 15 result is: -0.0129957
+RtRoiCombine: cen at tr 15 result is: -0.0185338
+received image from scanner: series 10 acquisition 16
+RtIncrementalGLM: done at tr 16
+RtCurrentActivation: done at tr 16
+RtRoiCombine: dmn at tr 16 result is: 0.1333
+RtRoiCombine: cen at tr 16 result is: -0.0415306
+received image from scanner: series 10 acquisition 17
+RtIncrementalGLM: done at tr 17
+RtCurrentActivation: done at tr 17
+RtRoiCombine: dmn at tr 17 result is: 0.0133079
+RtRoiCombine: cen at tr 17 result is: -0.0199299
+received image from scanner: series 10 acquisition 18
+RtIncrementalGLM: done at tr 18
+RtCurrentActivation: done at tr 18
+RtRoiCombine: dmn at tr 18 result is: 1.72458e-15
+RtRoiCombine: cen at tr 18 result is: 3.27368e-15
+received image from scanner: series 10 acquisition 19
+RtIncrementalGLM: done at tr 19
+RtCurrentActivation: done at tr 19
+RtRoiCombine: dmn at tr 19 result is: -0.0296659
+RtRoiCombine: cen at tr 19 result is: 0.0752763
+received image from scanner: series 10 acquisition 20
+RtIncrementalGLM: done at tr 20
+RtCurrentActivation: done at tr 20
+RtRoiCombine: dmn at tr 20 result is: 5.22051e-15
+RtRoiCombine: cen at tr 20 result is: 4.86913e-15
+received image from scanner: series 10 acquisition 21
+RtIncrementalGLM: done at tr 21
+RtCurrentActivation: done at tr 21
+RtRoiCombine: dmn at tr 21 result is: -0.0434856
+RtRoiCombine: cen at tr 21 result is: -0.117598
+received image from scanner: series 10 acquisition 22
+RtIncrementalGLM: done at tr 22
+RtCurrentActivation: done at tr 22
+RtRoiCombine: dmn at tr 22 result is: 0.0201742
+RtRoiCombine: cen at tr 22 result is: 0.0633052
+received image from scanner: series 10 acquisition 23
+RtIncrementalGLM: done at tr 23
+RtCurrentActivation: done at tr 23
+RtRoiCombine: dmn at tr 23 result is: -2.90614e-15
+RtRoiCombine: cen at tr 23 result is: -2.85994e-15
+received image from scanner: series 10 acquisition 24
+RtIncrementalGLM: done at tr 24
+RtCurrentActivation: done at tr 24
+RtRoiCombine: dmn at tr 24 result is: 0.0238935
+RtRoiCombine: cen at tr 24 result is: 0.0194165
+received image from scanner: series 10 acquisition 25
+RtIncrementalGLM: done at tr 25
+RtCurrentActivation: done at tr 25
+RtRoiCombine: dmn at tr 25 result is: 0.12321
+RtRoiCombine: cen at tr 25 result is: -0.140152
+received image from scanner: series 10 acquisition 26
+RtIncrementalGLM: done at tr 26
+RtCurrentActivation: done at tr 26
+RtRoiCombine: dmn at tr 26 result is: 0.042573
+RtRoiCombine: cen at tr 26 result is: 0.137488
+received image from scanner: series 10 acquisition 27
+RtIncrementalGLM: done at tr 27
+RtCurrentActivation: done at tr 27
+RtRoiCombine: dmn at tr 27 result is: -0.0160243
+RtRoiCombine: cen at tr 27 result is: -0.152702
+received image from scanner: series 10 acquisition 28
+RtIncrementalGLM: done at tr 28
+RtCurrentActivation: done at tr 28
+RtRoiCombine: dmn at tr 28 result is: -0.0190123
+RtRoiCombine: cen at tr 28 result is: 0.0597262
+received image from scanner: series 10 acquisition 29
+RtIncrementalGLM: done at tr 29
+RtCurrentActivation: done at tr 29
+RtRoiCombine: dmn at tr 29 result is: 0.0760169
+RtRoiCombine: cen at tr 29 result is: 0.0830807
+received image from scanner: series 10 acquisition 30
+RtIncrementalGLM: done at tr 30
+RtCurrentActivation: done at tr 30
+RtRoiCombine: dmn at tr 30 result is: 0.0075873
+RtRoiCombine: cen at tr 30 result is: 0.305632
+received image from scanner: series 10 acquisition 31
+RtIncrementalGLM: done at tr 31
+RtCurrentActivation: done at tr 31
+RtRoiCombine: dmn at tr 31 result is: 0.0552885
+RtRoiCombine: cen at tr 31 result is: 0.11213
+received image from scanner: series 10 acquisition 32
+RtIncrementalGLM: done at tr 32
+RtCurrentActivation: done at tr 32
+RtRoiCombine: dmn at tr 32 result is: 0.110666
+RtRoiCombine: cen at tr 32 result is: -0.00130798
+received image from scanner: series 10 acquisition 33
+RtIncrementalGLM: done at tr 33
+RtCurrentActivation: done at tr 33
+RtRoiCombine: dmn at tr 33 result is: -0.0806451
+RtRoiCombine: cen at tr 33 result is: -0.0225845
+received image from scanner: series 10 acquisition 34
+RtIncrementalGLM: done at tr 34
+RtCurrentActivation: done at tr 34
+RtRoiCombine: dmn at tr 34 result is: 0.053742
+RtRoiCombine: cen at tr 34 result is: 0.0360766
+received image from scanner: series 10 acquisition 35
+RtIncrementalGLM: done at tr 35
+RtCurrentActivation: done at tr 35
+RtRoiCombine: dmn at tr 35 result is: -0.110043
+RtRoiCombine: cen at tr 35 result is: 0.00632004
+received image from scanner: series 10 acquisition 36
+RtIncrementalGLM: done at tr 36
+RtCurrentActivation: done at tr 36
+RtRoiCombine: dmn at tr 36 result is: -0.00195214
+RtRoiCombine: cen at tr 36 result is: 0.125983
+received image from scanner: series 10 acquisition 37
+RtIncrementalGLM: done at tr 37
+RtCurrentActivation: done at tr 37
+RtRoiCombine: dmn at tr 37 result is: 0.0136342
+RtRoiCombine: cen at tr 37 result is: 0.0747999
+received image from scanner: series 10 acquisition 38
+RtIncrementalGLM: done at tr 38
+RtCurrentActivation: done at tr 38
+RtRoiCombine: dmn at tr 38 result is: 0.0542638
+RtRoiCombine: cen at tr 38 result is: 0.0873838
+received image from scanner: series 10 acquisition 39
+RtIncrementalGLM: done at tr 39
+RtCurrentActivation: done at tr 39
+RtRoiCombine: dmn at tr 39 result is: 0.0241587
+RtRoiCombine: cen at tr 39 result is: -0.0519693
+received image from scanner: series 10 acquisition 40
+RtIncrementalGLM: done at tr 40
+RtCurrentActivation: done at tr 40
+RtRoiCombine: dmn at tr 40 result is: 0.0110085
+RtRoiCombine: cen at tr 40 result is: 0.120984
+received image from scanner: series 10 acquisition 41
+RtIncrementalGLM: done at tr 41
+RtCurrentActivation: done at tr 41
+RtRoiCombine: dmn at tr 41 result is: 0.0386236
+RtRoiCombine: cen at tr 41 result is: -0.0945507
+received image from scanner: series 10 acquisition 42
+RtIncrementalGLM: done at tr 42
+RtCurrentActivation: done at tr 42
+RtRoiCombine: dmn at tr 42 result is: -0.0273108
+RtRoiCombine: cen at tr 42 result is: -0.0385272
+received image from scanner: series 10 acquisition 43
+RtIncrementalGLM: done at tr 43
+RtCurrentActivation: done at tr 43
+RtRoiCombine: dmn at tr 43 result is: -0.0832352
+RtRoiCombine: cen at tr 43 result is: -0.0265036
+received image from scanner: series 10 acquisition 44
+RtIncrementalGLM: done at tr 44
+RtCurrentActivation: done at tr 44
+RtRoiCombine: dmn at tr 44 result is: 0.0433557
+RtRoiCombine: cen at tr 44 result is: -0.138139
+received image from scanner: series 10 acquisition 45
+RtIncrementalGLM: done at tr 45
+RtCurrentActivation: done at tr 45
+RtRoiCombine: dmn at tr 45 result is: -0.0283031
+RtRoiCombine: cen at tr 45 result is: 0.0980323
+received image from scanner: series 10 acquisition 46
+RtIncrementalGLM: done at tr 46
+RtCurrentActivation: done at tr 46
+RtRoiCombine: dmn at tr 46 result is: 0.0819684
+RtRoiCombine: cen at tr 46 result is: -0.0251831
+received image from scanner: series 10 acquisition 47
+RtIncrementalGLM: done at tr 47
+RtCurrentActivation: done at tr 47
+RtRoiCombine: dmn at tr 47 result is: 0.0159109
+RtRoiCombine: cen at tr 47 result is: 0.143465
+received image from scanner: series 10 acquisition 48
+RtIncrementalGLM: done at tr 48
+RtCurrentActivation: done at tr 48
+RtRoiCombine: dmn at tr 48 result is: 0.0233008
+RtRoiCombine: cen at tr 48 result is: -0.311627
+received image from scanner: series 10 acquisition 49
+RtIncrementalGLM: done at tr 49
+RtCurrentActivation: done at tr 49
+RtRoiCombine: dmn at tr 49 result is: -0.0217997
+RtRoiCombine: cen at tr 49 result is: 0.250602
+received image from scanner: series 10 acquisition 50
+RtIncrementalGLM: done at tr 50
+RtCurrentActivation: done at tr 50
+RtRoiCombine: dmn at tr 50 result is: -0.0121454
+RtRoiCombine: cen at tr 50 result is: -0.0372618
+received image from scanner: series 10 acquisition 51
+RtIncrementalGLM: done at tr 51
+RtCurrentActivation: done at tr 51
+RtRoiCombine: dmn at tr 51 result is: 0.0293355
+RtRoiCombine: cen at tr 51 result is: 0.0198108
+received image from scanner: series 10 acquisition 52
+RtIncrementalGLM: done at tr 52
+RtCurrentActivation: done at tr 52
+RtRoiCombine: dmn at tr 52 result is: 0.0118412
+RtRoiCombine: cen at tr 52 result is: 0.111402
+received image from scanner: series 10 acquisition 53
+RtIncrementalGLM: done at tr 53
+RtCurrentActivation: done at tr 53
+RtRoiCombine: dmn at tr 53 result is: 0.0790076
+RtRoiCombine: cen at tr 53 result is: 0.0489943
+received image from scanner: series 10 acquisition 54
+RtIncrementalGLM: done at tr 54
+RtCurrentActivation: done at tr 54
+RtRoiCombine: dmn at tr 54 result is: 0.0547083
+RtRoiCombine: cen at tr 54 result is: -0.0859138
+received image from scanner: series 10 acquisition 55
+RtIncrementalGLM: done at tr 55
+RtCurrentActivation: done at tr 55
+RtRoiCombine: dmn at tr 55 result is: -0.0190335
+RtRoiCombine: cen at tr 55 result is: -0.10539
+received image from scanner: series 10 acquisition 56
+RtIncrementalGLM: done at tr 56
+RtCurrentActivation: done at tr 56
+RtRoiCombine: dmn at tr 56 result is: -0.00604852
+RtRoiCombine: cen at tr 56 result is: -0.0615141
+received image from scanner: series 10 acquisition 57
+RtIncrementalGLM: done at tr 57
+RtCurrentActivation: done at tr 57
+RtRoiCombine: dmn at tr 57 result is: 0.0482131
+RtRoiCombine: cen at tr 57 result is: 0.104801
+received image from scanner: series 10 acquisition 58
+RtIncrementalGLM: done at tr 58
+RtCurrentActivation: done at tr 58
+RtRoiCombine: dmn at tr 58 result is: -0.00752621
+RtRoiCombine: cen at tr 58 result is: 0.119871
+received image from scanner: series 10 acquisition 59
+RtIncrementalGLM: done at tr 59
+RtCurrentActivation: done at tr 59
+RtRoiCombine: dmn at tr 59 result is: 0.0559961
+RtRoiCombine: cen at tr 59 result is: -0.0100498
+received image from scanner: series 10 acquisition 60
+RtIncrementalGLM: done at tr 60
+RtCurrentActivation: done at tr 60
+RtRoiCombine: dmn at tr 60 result is: -0.01423
+RtRoiCombine: cen at tr 60 result is: 0.091289
+received image from scanner: series 10 acquisition 61
+RtIncrementalGLM: done at tr 61
+RtCurrentActivation: done at tr 61
+RtRoiCombine: dmn at tr 61 result is: -0.0626158
+RtRoiCombine: cen at tr 61 result is: 0.134778
+received image from scanner: series 10 acquisition 62
+RtIncrementalGLM: done at tr 62
+RtCurrentActivation: done at tr 62
+RtRoiCombine: dmn at tr 62 result is: 0.0549695
+RtRoiCombine: cen at tr 62 result is: 0.0813134
+received image from scanner: series 10 acquisition 63
+RtIncrementalGLM: done at tr 63
+RtCurrentActivation: done at tr 63
+RtRoiCombine: dmn at tr 63 result is: 0.031661
+RtRoiCombine: cen at tr 63 result is: 0.090479
+received image from scanner: series 10 acquisition 64
+RtIncrementalGLM: done at tr 64
+RtCurrentActivation: done at tr 64
+RtRoiCombine: dmn at tr 64 result is: -0.110751
+RtRoiCombine: cen at tr 64 result is: 0.0234232
+received image from scanner: series 10 acquisition 65
+RtIncrementalGLM: done at tr 65
+RtCurrentActivation: done at tr 65
+RtRoiCombine: dmn at tr 65 result is: 0.192374
+RtRoiCombine: cen at tr 65 result is: 0.122817
+received image from scanner: series 10 acquisition 66
+RtIncrementalGLM: done at tr 66
+RtCurrentActivation: done at tr 66
+RtRoiCombine: dmn at tr 66 result is: -0.0827453
+RtRoiCombine: cen at tr 66 result is: -0.0281512
+received image from scanner: series 10 acquisition 67
+RtIncrementalGLM: done at tr 67
+RtCurrentActivation: done at tr 67
+RtRoiCombine: dmn at tr 67 result is: -0.0618982
+RtRoiCombine: cen at tr 67 result is: -0.0272442
+received image from scanner: series 10 acquisition 68
+RtIncrementalGLM: done at tr 68
+RtCurrentActivation: done at tr 68
+RtRoiCombine: dmn at tr 68 result is: 0.125054
+RtRoiCombine: cen at tr 68 result is: 0.155498
+received image from scanner: series 10 acquisition 69
+RtIncrementalGLM: done at tr 69
+RtCurrentActivation: done at tr 69
+RtRoiCombine: dmn at tr 69 result is: 0.0223498
+RtRoiCombine: cen at tr 69 result is: 0.00157229
+received image from scanner: series 10 acquisition 70
+RtIncrementalGLM: done at tr 70
+RtCurrentActivation: done at tr 70
+RtRoiCombine: dmn at tr 70 result is: -0.0241128
+RtRoiCombine: cen at tr 70 result is: 0.287957
+received image from scanner: series 10 acquisition 71
+RtIncrementalGLM: done at tr 71
+RtCurrentActivation: done at tr 71
+RtRoiCombine: dmn at tr 71 result is: -0.0713683
+RtRoiCombine: cen at tr 71 result is: 0.106644
+received image from scanner: series 10 acquisition 72
+RtIncrementalGLM: done at tr 72
+RtCurrentActivation: done at tr 72
+RtRoiCombine: dmn at tr 72 result is: -0.0277653
+RtRoiCombine: cen at tr 72 result is: 0.130981
+received image from scanner: series 10 acquisition 73
+RtIncrementalGLM: done at tr 73
+RtCurrentActivation: done at tr 73
+RtRoiCombine: dmn at tr 73 result is: -0.0397796
+RtRoiCombine: cen at tr 73 result is: 0.08398
+received image from scanner: series 10 acquisition 74
+RtIncrementalGLM: done at tr 74
+RtCurrentActivation: done at tr 74
+RtRoiCombine: dmn at tr 74 result is: -0.117308
+RtRoiCombine: cen at tr 74 result is: 0.0290286
+received image from scanner: series 10 acquisition 75
+RtIncrementalGLM: done at tr 75
+RtCurrentActivation: done at tr 75
+RtRoiCombine: dmn at tr 75 result is: -0.0217703
+RtRoiCombine: cen at tr 75 result is: 0.0694803
+received image from scanner: series 10 acquisition 76
+RtIncrementalGLM: done at tr 76
+RtCurrentActivation: done at tr 76
+RtRoiCombine: dmn at tr 76 result is: -0.0415729
+RtRoiCombine: cen at tr 76 result is: 0.0618094
+received image from scanner: series 10 acquisition 77
+RtIncrementalGLM: done at tr 77
+RtCurrentActivation: done at tr 77
+RtRoiCombine: dmn at tr 77 result is: -0.0373854
+RtRoiCombine: cen at tr 77 result is: 0.0117474
+received image from scanner: series 10 acquisition 78
+RtIncrementalGLM: done at tr 78
+RtCurrentActivation: done at tr 78
+RtRoiCombine: dmn at tr 78 result is: 0.0339989
+RtRoiCombine: cen at tr 78 result is: 0.140147
+received image from scanner: series 10 acquisition 79
+RtIncrementalGLM: done at tr 79
+RtCurrentActivation: done at tr 79
+RtRoiCombine: dmn at tr 79 result is: -0.0693052
+RtRoiCombine: cen at tr 79 result is: 0.17771
+received image from scanner: series 10 acquisition 80
+RtIncrementalGLM: done at tr 80
+RtCurrentActivation: done at tr 80
+RtRoiCombine: dmn at tr 80 result is: 0.0398923
+RtRoiCombine: cen at tr 80 result is: 0.104022
+received image from scanner: series 10 acquisition 81
+RtIncrementalGLM: done at tr 81
+RtCurrentActivation: done at tr 81
+RtRoiCombine: dmn at tr 81 result is: -0.063283
+RtRoiCombine: cen at tr 81 result is: 0.217182
+received image from scanner: series 10 acquisition 82
+RtIncrementalGLM: done at tr 82
+RtCurrentActivation: done at tr 82
+RtRoiCombine: dmn at tr 82 result is: -0.010884
+RtRoiCombine: cen at tr 82 result is: 0.0737263
+received image from scanner: series 10 acquisition 83
+RtIncrementalGLM: done at tr 83
+RtCurrentActivation: done at tr 83
+RtRoiCombine: dmn at tr 83 result is: 0.0112677
+RtRoiCombine: cen at tr 83 result is: 0.128304
+received image from scanner: series 10 acquisition 84
+RtIncrementalGLM: done at tr 84
+RtCurrentActivation: done at tr 84
+RtRoiCombine: dmn at tr 84 result is: -0.10039
+RtRoiCombine: cen at tr 84 result is: 0.280471
+received image from scanner: series 10 acquisition 85
+RtIncrementalGLM: done at tr 85
+RtCurrentActivation: done at tr 85
+RtRoiCombine: dmn at tr 85 result is: -0.0972727
+RtRoiCombine: cen at tr 85 result is: -0.069537
+received image from scanner: series 10 acquisition 86
+RtIncrementalGLM: done at tr 86
+RtCurrentActivation: done at tr 86
+RtRoiCombine: dmn at tr 86 result is: -0.0276243
+RtRoiCombine: cen at tr 86 result is: -0.0210189
+received image from scanner: series 10 acquisition 87
+RtIncrementalGLM: done at tr 87
+RtCurrentActivation: done at tr 87
+RtRoiCombine: dmn at tr 87 result is: -0.0120125
+RtRoiCombine: cen at tr 87 result is: -0.00361175
+received image from scanner: series 10 acquisition 88
+RtIncrementalGLM: done at tr 88
+RtCurrentActivation: done at tr 88
+RtRoiCombine: dmn at tr 88 result is: 0.0363268
+RtRoiCombine: cen at tr 88 result is: 0.141453
+received image from scanner: series 10 acquisition 89
+RtIncrementalGLM: done at tr 89
+RtCurrentActivation: done at tr 89
+RtRoiCombine: dmn at tr 89 result is: -0.105923
+RtRoiCombine: cen at tr 89 result is: -0.0147689
+received image from scanner: series 10 acquisition 90
+RtIncrementalGLM: done at tr 90
+RtCurrentActivation: done at tr 90
+RtRoiCombine: dmn at tr 90 result is: 0.0406518
+RtRoiCombine: cen at tr 90 result is: 0.154339
+received image from scanner: series 10 acquisition 91
+RtIncrementalGLM: done at tr 91
+RtCurrentActivation: done at tr 91
+RtRoiCombine: dmn at tr 91 result is: -0.147874
+RtRoiCombine: cen at tr 91 result is: 0.0555854
+received image from scanner: series 10 acquisition 92
+RtIncrementalGLM: done at tr 92
+RtCurrentActivation: done at tr 92
+RtRoiCombine: dmn at tr 92 result is: -0.0523536
+RtRoiCombine: cen at tr 92 result is: 0.021707
+received image from scanner: series 10 acquisition 93
+RtIncrementalGLM: done at tr 93
+RtCurrentActivation: done at tr 93
+RtRoiCombine: dmn at tr 93 result is: 0.00892174
+RtRoiCombine: cen at tr 93 result is: 0.0190349
+received image from scanner: series 10 acquisition 94
+RtIncrementalGLM: done at tr 94
+RtCurrentActivation: done at tr 94
+RtRoiCombine: dmn at tr 94 result is: -0.0945683
+RtRoiCombine: cen at tr 94 result is: -0.0817296
+received image from scanner: series 10 acquisition 95
+RtIncrementalGLM: done at tr 95
+RtCurrentActivation: done at tr 95
+RtRoiCombine: dmn at tr 95 result is: 0.0660559
+RtRoiCombine: cen at tr 95 result is: 0.0461569
+received image from scanner: series 10 acquisition 96
+RtIncrementalGLM: done at tr 96
+RtCurrentActivation: done at tr 96
+RtRoiCombine: dmn at tr 96 result is: -0.103929
+RtRoiCombine: cen at tr 96 result is: 0.0597799
+received image from scanner: series 10 acquisition 97
+RtIncrementalGLM: done at tr 97
+RtCurrentActivation: done at tr 97
+RtRoiCombine: dmn at tr 97 result is: -0.00656973
+RtRoiCombine: cen at tr 97 result is: -0.000750489
+received image from scanner: series 10 acquisition 98
+RtIncrementalGLM: done at tr 98
+RtCurrentActivation: done at tr 98
+RtRoiCombine: dmn at tr 98 result is: -0.091743
+RtRoiCombine: cen at tr 98 result is: 0.0220575
+received image from scanner: series 10 acquisition 99
+RtIncrementalGLM: done at tr 99
+RtCurrentActivation: done at tr 99
+RtRoiCombine: dmn at tr 99 result is: 0.0200156
+RtRoiCombine: cen at tr 99 result is: 0.0268542
+received image from scanner: series 10 acquisition 100
+RtIncrementalGLM: done at tr 100
+RtCurrentActivation: done at tr 100
+RtRoiCombine: dmn at tr 100 result is: -0.164785
+RtRoiCombine: cen at tr 100 result is: 0.154266
+received image from scanner: series 10 acquisition 101
+RtIncrementalGLM: done at tr 101
+RtCurrentActivation: done at tr 101
+RtRoiCombine: dmn at tr 101 result is: 0.066824
+RtRoiCombine: cen at tr 101 result is: 0.107499
+received image from scanner: series 10 acquisition 102
+RtIncrementalGLM: done at tr 102
+RtCurrentActivation: done at tr 102
+RtRoiCombine: dmn at tr 102 result is: 0.0219698
+RtRoiCombine: cen at tr 102 result is: 0.221555
+received image from scanner: series 10 acquisition 103
+RtIncrementalGLM: done at tr 103
+RtCurrentActivation: done at tr 103
+RtRoiCombine: dmn at tr 103 result is: -0.0162749
+RtRoiCombine: cen at tr 103 result is: 0.206839
+received image from scanner: series 10 acquisition 104
+RtIncrementalGLM: done at tr 104
+RtCurrentActivation: done at tr 104
+RtRoiCombine: dmn at tr 104 result is: -0.119855
+RtRoiCombine: cen at tr 104 result is: -0.0882697
+received image from scanner: series 10 acquisition 105
+RtIncrementalGLM: done at tr 105
+RtCurrentActivation: done at tr 105
+RtRoiCombine: dmn at tr 105 result is: -0.12989
+RtRoiCombine: cen at tr 105 result is: 0.177404
+received image from scanner: series 10 acquisition 106
+RtIncrementalGLM: done at tr 106
+RtCurrentActivation: done at tr 106
+RtRoiCombine: dmn at tr 106 result is: -0.0192511
+RtRoiCombine: cen at tr 106 result is: 0.0884239
+received image from scanner: series 10 acquisition 107
+RtIncrementalGLM: done at tr 107
+RtCurrentActivation: done at tr 107
+RtRoiCombine: dmn at tr 107 result is: -0.0126958
+RtRoiCombine: cen at tr 107 result is: 0.0323465
+received image from scanner: series 10 acquisition 108
+RtIncrementalGLM: done at tr 108
+RtCurrentActivation: done at tr 108
+RtRoiCombine: dmn at tr 108 result is: -0.0595317
+RtRoiCombine: cen at tr 108 result is: 0.0530093
+received image from scanner: series 10 acquisition 109
+RtIncrementalGLM: done at tr 109
+RtCurrentActivation: done at tr 109
+RtRoiCombine: dmn at tr 109 result is: -0.0146596
+RtRoiCombine: cen at tr 109 result is: 0.0640126
+received image from scanner: series 10 acquisition 110
+RtIncrementalGLM: done at tr 110
+RtCurrentActivation: done at tr 110
+RtRoiCombine: dmn at tr 110 result is: -0.0315409
+RtRoiCombine: cen at tr 110 result is: 0.239856
+received image from scanner: series 10 acquisition 111
+RtIncrementalGLM: done at tr 111
+RtCurrentActivation: done at tr 111
+RtRoiCombine: dmn at tr 111 result is: -0.171085
+RtRoiCombine: cen at tr 111 result is: -0.0187692
+received image from scanner: series 10 acquisition 112
+RtIncrementalGLM: done at tr 112
+RtCurrentActivation: done at tr 112
+RtRoiCombine: dmn at tr 112 result is: -0.179347
+RtRoiCombine: cen at tr 112 result is: 0.142966
+received image from scanner: series 10 acquisition 113
+RtIncrementalGLM: done at tr 113
+RtCurrentActivation: done at tr 113
+RtRoiCombine: dmn at tr 113 result is: 0.0550489
+RtRoiCombine: cen at tr 113 result is: 0.186566
+received image from scanner: series 10 acquisition 114
+RtIncrementalGLM: done at tr 114
+RtCurrentActivation: done at tr 114
+RtRoiCombine: dmn at tr 114 result is: 0.0419382
+RtRoiCombine: cen at tr 114 result is: 0.123153
+received image from scanner: series 10 acquisition 115
+RtIncrementalGLM: done at tr 115
+RtCurrentActivation: done at tr 115
+RtRoiCombine: dmn at tr 115 result is: 0.00541815
+RtRoiCombine: cen at tr 115 result is: 0.0858432
+received image from scanner: series 10 acquisition 116
+RtIncrementalGLM: done at tr 116
+RtCurrentActivation: done at tr 116
+RtRoiCombine: dmn at tr 116 result is: 0.0192394
+RtRoiCombine: cen at tr 116 result is: 0.147417
+received image from scanner: series 10 acquisition 117
+RtIncrementalGLM: done at tr 117
+RtCurrentActivation: done at tr 117
+RtRoiCombine: dmn at tr 117 result is: -0.00217056
+RtRoiCombine: cen at tr 117 result is: 0.0824708
+received image from scanner: series 10 acquisition 118
+RtIncrementalGLM: done at tr 118
+RtCurrentActivation: done at tr 118
+RtRoiCombine: dmn at tr 118 result is: -0.0660241
+RtRoiCombine: cen at tr 118 result is: -0.0225271
+received image from scanner: series 10 acquisition 119
+RtIncrementalGLM: done at tr 119
+RtCurrentActivation: done at tr 119
+RtRoiCombine: dmn at tr 119 result is: 0.0375459
+RtRoiCombine: cen at tr 119 result is: 0.110237
+received image from scanner: series 10 acquisition 120
+RtIncrementalGLM: done at tr 120
+RtCurrentActivation: done at tr 120
+RtRoiCombine: dmn at tr 120 result is: -0.039907
+RtRoiCombine: cen at tr 120 result is: 0.0721922
+received image from scanner: series 10 acquisition 121
+RtIncrementalGLM: done at tr 121
+RtCurrentActivation: done at tr 121
+RtRoiCombine: dmn at tr 121 result is: -0.0598432
+RtRoiCombine: cen at tr 121 result is: 0.0205922
+received image from scanner: series 10 acquisition 122
+RtIncrementalGLM: done at tr 122
+RtCurrentActivation: done at tr 122
+RtRoiCombine: dmn at tr 122 result is: -0.0771109
+RtRoiCombine: cen at tr 122 result is: 0.098225
+received image from scanner: series 10 acquisition 123
+RtIncrementalGLM: done at tr 123
+RtCurrentActivation: done at tr 123
+RtRoiCombine: dmn at tr 123 result is: -0.00414745
+RtRoiCombine: cen at tr 123 result is: 0.14193
+received image from scanner: series 10 acquisition 124
+RtIncrementalGLM: done at tr 124
+RtCurrentActivation: done at tr 124
+RtRoiCombine: dmn at tr 124 result is: -0.0204854
+RtRoiCombine: cen at tr 124 result is: 0.184915
+received image from scanner: series 10 acquisition 125
+RtIncrementalGLM: done at tr 125
+RtCurrentActivation: done at tr 125
+RtRoiCombine: dmn at tr 125 result is: -0.102278
+RtRoiCombine: cen at tr 125 result is: 0.0578224
+received image from scanner: series 10 acquisition 126
+RtIncrementalGLM: done at tr 126
+RtCurrentActivation: done at tr 126
+RtRoiCombine: dmn at tr 126 result is: -0.0209
+RtRoiCombine: cen at tr 126 result is: -0.0460693
+received image from scanner: series 10 acquisition 127
+RtIncrementalGLM: done at tr 127
+RtCurrentActivation: done at tr 127
+RtRoiCombine: dmn at tr 127 result is: -0.13422
+RtRoiCombine: cen at tr 127 result is: -0.0864482
+received image from scanner: series 10 acquisition 128
+RtIncrementalGLM: done at tr 128
+RtCurrentActivation: done at tr 128
+RtRoiCombine: dmn at tr 128 result is: 0.0597613
+RtRoiCombine: cen at tr 128 result is: 0.132164
+received image from scanner: series 10 acquisition 129
+RtIncrementalGLM: done at tr 129
+RtCurrentActivation: done at tr 129
+RtRoiCombine: dmn at tr 129 result is: 0.0416639
+RtRoiCombine: cen at tr 129 result is: 0.222112
+received image from scanner: series 10 acquisition 130
+RtIncrementalGLM: done at tr 130
+RtCurrentActivation: done at tr 130
+RtRoiCombine: dmn at tr 130 result is: 0.0963678
+RtRoiCombine: cen at tr 130 result is: -0.10217
+received image from scanner: series 10 acquisition 131
+RtIncrementalGLM: done at tr 131
+RtCurrentActivation: done at tr 131
+RtRoiCombine: dmn at tr 131 result is: -0.0910253
+RtRoiCombine: cen at tr 131 result is: 0.271462
+received image from scanner: series 10 acquisition 132
+RtIncrementalGLM: done at tr 132
+RtCurrentActivation: done at tr 132
+RtRoiCombine: dmn at tr 132 result is: -0.0491354
+RtRoiCombine: cen at tr 132 result is: 0.0249398
+received image from scanner: series 10 acquisition 133
+RtIncrementalGLM: done at tr 133
+RtCurrentActivation: done at tr 133
+RtRoiCombine: dmn at tr 133 result is: 0.0394653
+RtRoiCombine: cen at tr 133 result is: -0.0961344
+received image from scanner: series 10 acquisition 134
+RtIncrementalGLM: done at tr 134
+RtCurrentActivation: done at tr 134
+RtRoiCombine: dmn at tr 134 result is: 0.0527136
+RtRoiCombine: cen at tr 134 result is: 0.0302557
+received image from scanner: series 10 acquisition 135
+RtIncrementalGLM: done at tr 135
+RtCurrentActivation: done at tr 135
+RtRoiCombine: dmn at tr 135 result is: -0.0188876
+RtRoiCombine: cen at tr 135 result is: 0.0933894
+received image from scanner: series 10 acquisition 136
+RtIncrementalGLM: done at tr 136
+RtCurrentActivation: done at tr 136
+RtRoiCombine: dmn at tr 136 result is: 0.0300918
+RtRoiCombine: cen at tr 136 result is: 0.0289282
+received image from scanner: series 10 acquisition 137
+RtIncrementalGLM: done at tr 137
+RtCurrentActivation: done at tr 137
+RtRoiCombine: dmn at tr 137 result is: 0.0375953
+RtRoiCombine: cen at tr 137 result is: 0.158712
+received image from scanner: series 10 acquisition 138
+RtIncrementalGLM: done at tr 138
+RtCurrentActivation: done at tr 138
+RtRoiCombine: dmn at tr 138 result is: 0.0202741
+RtRoiCombine: cen at tr 138 result is: -0.00025127
+received image from scanner: series 10 acquisition 139
+RtIncrementalGLM: done at tr 139
+RtCurrentActivation: done at tr 139
+RtRoiCombine: dmn at tr 139 result is: 0.0400512
+RtRoiCombine: cen at tr 139 result is: 0.191206
+received image from scanner: series 10 acquisition 140
+RtIncrementalGLM: done at tr 140
+RtCurrentActivation: done at tr 140
+RtRoiCombine: dmn at tr 140 result is: -0.102714
+RtRoiCombine: cen at tr 140 result is: 0.0641944
+received image from scanner: series 10 acquisition 141
+RtIncrementalGLM: done at tr 141
+RtCurrentActivation: done at tr 141
+RtRoiCombine: dmn at tr 141 result is: 0.0267987
+RtRoiCombine: cen at tr 141 result is: 0.227554
+received image from scanner: series 10 acquisition 142
+RtIncrementalGLM: done at tr 142
+RtCurrentActivation: done at tr 142
+RtRoiCombine: dmn at tr 142 result is: 0.00968334
+RtRoiCombine: cen at tr 142 result is: -0.0568228
+received image from scanner: series 10 acquisition 143
+RtIncrementalGLM: done at tr 143
+RtCurrentActivation: done at tr 143
+RtRoiCombine: dmn at tr 143 result is: 0.0489575
+RtRoiCombine: cen at tr 143 result is: -0.0542087
+received image from scanner: series 10 acquisition 144
+RtIncrementalGLM: done at tr 144
+RtCurrentActivation: done at tr 144
+RtRoiCombine: dmn at tr 144 result is: 0.0266517
+RtRoiCombine: cen at tr 144 result is: 0.0704455
+received image from scanner: series 10 acquisition 145
+RtIncrementalGLM: done at tr 145
+RtCurrentActivation: done at tr 145
+RtRoiCombine: dmn at tr 145 result is: -0.0905278
+RtRoiCombine: cen at tr 145 result is: 0.202342
+received image from scanner: series 10 acquisition 146
+RtIncrementalGLM: done at tr 146
+RtCurrentActivation: done at tr 146
+RtRoiCombine: dmn at tr 146 result is: 0.0104363
+RtRoiCombine: cen at tr 146 result is: 0.222424
+received image from scanner: series 10 acquisition 147
+RtIncrementalGLM: done at tr 147
+RtCurrentActivation: done at tr 147
+RtRoiCombine: dmn at tr 147 result is: -0.0720968
+RtRoiCombine: cen at tr 147 result is: 0.020134
+received image from scanner: series 10 acquisition 148
+RtIncrementalGLM: done at tr 148
+RtCurrentActivation: done at tr 148
+RtRoiCombine: dmn at tr 148 result is: 0.0417615
+RtRoiCombine: cen at tr 148 result is: -0.015959
+received image from scanner: series 10 acquisition 149
+RtIncrementalGLM: done at tr 149
+RtCurrentActivation: done at tr 149
+RtRoiCombine: dmn at tr 149 result is: -0.109897
+RtRoiCombine: cen at tr 149 result is: -0.0182082
+received image from scanner: series 10 acquisition 150
+RtIncrementalGLM: done at tr 150
+RtCurrentActivation: done at tr 150
+RtRoiCombine: dmn at tr 150 result is: 0.0183969
+RtRoiCombine: cen at tr 150 result is: 0.0859138

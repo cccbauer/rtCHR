@@ -1,0 +1,6 @@
+</pre><hr>Initialisation<br><pre>
+
+/home/rt-mgh/fsl/bin/fslmaths /home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2999/rest/sub-mindbpd2999_ses-lo1_task-rest_run-01_bold_mcflirt_masked prefiltered_func_data -odt float
+Total original volumes = 47
+
+/home/rt-mgh/fsl/bin/fslroi prefiltered_func_data example_func 23 1

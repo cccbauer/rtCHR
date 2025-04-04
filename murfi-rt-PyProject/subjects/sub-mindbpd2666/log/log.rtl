@@ -1,0 +1,53 @@
+################################################################
+
+# realtime system log file
+created 2025/4/4 11:45:46.14683
+
+configured the mosaic
+configuration:
+--------------
++ study
+  + name=rtDMN
+  + option
+    + name=softwareDir
+    + /opt/murfi/
+  + log
+    + filename=/home/rt-mgh/MIND-BPD/murfi-rt-PyProject/subjects/sub-mindbpd2666/log/log.rtl
+  + xfm
+    + referenceVol=study_ref.
++ scanner
+  + option
+    + name=imageSource
+    + DICOM
+  + option
+    + name=inputDicomDir
+    + /BOLD_DICOM
+  + option
+    + name=tr
+    + 1.2
+  + option
+    + name=measurements
+    + 2
+  + option
+    + name=save
+    + true
+  + >
++ infoserver
+  + option
+    + name=disabled
+    + false
+  + option
+    + name=port
+    + 15001
++ processor
+  + module
+    + name=mosaic
+    + option
+      + name=disabled
+      + false
+    + output
+      + display
+    + output
+      + log
+--------------
+

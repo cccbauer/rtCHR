@@ -10,7 +10,7 @@ then
     ret=$?
 	# parse zenity output using space as delimiter
 	read -a input_array <<< $input_string
-	partcipant_id=sub-mindbpd${input_array[0]}
+	partcipant_id=sub-rtCHR${input_array[0]}
 	step=${input_array[1]}
 	
 else

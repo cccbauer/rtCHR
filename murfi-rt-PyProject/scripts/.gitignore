@@ -1,0 +1,6 @@
+# Ignore Singularity image files
+*.sif
+
+# Optional: Also ignore temporary Singularity build files
+.singularity/
+*.simg

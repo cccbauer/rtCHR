@@ -1,0 +1,2 @@
+participant,session,date,exp_name,frame_rate,absolute_time,trigger_time,trial_type,trial_num,word,response_time,reponse_key,response_endorse,condition,word_valence,block_number
+sub-mindbpd2999,loc,2025-05-23_11h06.57.010,task-selfref,59.739835777209635,1748012828.2701464,,instructions,,,,,,,,

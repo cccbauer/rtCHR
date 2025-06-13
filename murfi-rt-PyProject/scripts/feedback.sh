@@ -53,7 +53,7 @@ then
     #echo "disabling wireless internet"
     #ifdown wlan0
     echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    echo "+ checking the presence of scanner and stim computer"
+    echo "+ checking the presence of scanner"
     echo "+ using $DICOM_FOLDER_LOCAL to store receive images from scanner"
     ping -c 3 192.168.2.1
     #ping -c 3 192.168.2.6 # uncomment this if you are using a separate stim computer for psychopy

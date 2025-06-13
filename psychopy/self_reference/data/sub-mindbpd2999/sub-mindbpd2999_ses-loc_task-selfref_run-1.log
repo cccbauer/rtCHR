@@ -1,0 +1,63 @@
+21.5008 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [2560, 1440]. Using actual size
+22.2209 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7e1340701030>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7e1340700fd0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7e13399a0b80>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.2209 	EXP 	window1: backgroundImage = None
+22.2209 	EXP 	window1: backgroundFit = 'cover'
+22.2709 	EXP 	Created instruct_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.08), italic=False, languageStyle='LTR', name='instruct_text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.5)
+22.2770 	EXP 	Created trigger_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='trigger_text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='waiting for scanner to begin...', units='norm', win=Window(...), wrapWidth=2)
+22.2821 	EXP 	Created fix_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='fix_stim', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+22.2846 	EXP 	Created prefix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='prefix', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+22.2912 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='word', opacity=1, ori=0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='default text', units='norm', win=Window(...), wrapWidth=1)
+22.2954 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='word', opacity=1, ori=0, pos=array([-0.7, -0.8]), rgb=UNKNOWN, text='YES', units='norm', win=Window(...), wrapWidth=1)
+22.2996 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='word', opacity=1, ori=0, pos=array([ 0.7, -0.8]), rgb=UNKNOWN, text='NO', units='norm', win=Window(...), wrapWidth=1)
+22.3047 	EXP 	Created word = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='word', opacity=1, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='block_text', units='norm', win=Window(...), wrapWidth=1)
+22.3071 	EXP 	Created postfix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.2), italic=False, languageStyle='LTR', name='postfix', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='norm', win=Window(...), wrapWidth=1)
+22.3084 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+22.3084 	EXP 	window1: recordFrameIntervals = False
+22.4212 	EXP 	window1: recordFrameIntervals = True
+22.6038 	EXP 	Screen (1) actual frame rate measured at 59.74Hz
+22.6039 	EXP 	window1: recordFrameIntervals = False
+29.3427 	DATA 	Mouse: Left button down, pos=(1678,613)
+29.4266 	DATA 	Mouse:  Left button up, pos=(1678,613)
+30.1474 	DATA 	Keypress: lalt
+31.2811 	DATA 	Keypress: escape
+32.6426 	DATA 	Keypress: space
+32.6614 	EXP 	instruct_text: height = np.float64(0.08)
+32.6614 	EXP 	instruct_text: height = np.float64(0.08)
+32.6614 	EXP 	instruct_text: height = np.float64(0.08)
+32.6614 	EXP 	instruct_text: text = 'The 3 types of YES or NO questions you will see will be:\n\n1) Does a word describe you?\n\n2) Does a word describe Marlee (who you mentioned earlier)?\n\n3) Is a word positive?'
+32.9472 	DATA 	Keypress: space
+32.9557 	EXP 	instruct_text: height = np.float64(0.08)
+32.9557 	EXP 	instruct_text: height = np.float64(0.08)
+32.9557 	EXP 	instruct_text: height = np.float64(0.08)
+32.9557 	EXP 	instruct_text: text = "There are no right or wrong answers!\n\nIf you see a word you don't know, you can just wait for the next one"
+33.2064 	DATA 	Keypress: escape
+33.5387 	DATA 	Keypress: escape
+33.7540 	DATA 	Keypress: space
+33.7630 	EXP 	instruct_text: height = np.float64(0.08)
+33.7630 	EXP 	instruct_text: height = np.float64(0.08)
+33.7630 	EXP 	instruct_text: height = np.float64(0.08)
+33.7630 	EXP 	instruct_text: text = 'Each time you answer a question:        \n\n\npress the left button to answer YES\n\npress the right button to answer NO'
+34.2805 	DATA 	Keypress: space
+34.2888 	EXP 	instruct_text: height = np.float64(0.08)
+34.2888 	EXP 	instruct_text: height = np.float64(0.08)
+34.2888 	EXP 	instruct_text: height = np.float64(0.08)
+34.2888 	EXP 	instruct_text: text = 'Just to make sure everything is working with the buttons.        \n\nPlease press the left button to answer YES'
+34.5448 	DATA 	Keypress: escape
+34.9216 	DATA 	Keypress: space
+36.0736 	DATA 	Keypress: 1
+36.0842 	EXP 	instruct_text: height = np.float64(0.08)
+36.0842 	EXP 	instruct_text: height = np.float64(0.08)
+36.0842 	EXP 	instruct_text: height = np.float64(0.08)
+36.0842 	EXP 	instruct_text: text = 'Just to make sure everything is working with the buttons.        \n\nPlease press the right button to answer NO'
+36.6990 	DATA 	Keypress: 2
+36.7064 	EXP 	instruct_text: height = np.float64(0.08)
+36.7064 	EXP 	instruct_text: height = np.float64(0.08)
+36.7064 	EXP 	instruct_text: height = np.float64(0.08)
+36.7064 	EXP 	instruct_text: text = 'Great! We will go through a few practice trials of each type now.        \n\nTry to make your decision quickly!'
+37.2642 	DATA 	Keypress: 1
+37.5490 	DATA 	Keypress: 2
+37.7385 	DATA 	Keypress: 2
+38.4619 	DATA 	Keypress: quoteleft
+38.7629 	DATA 	Keypress: escape
+38.9937 	DATA 	Keypress: escape
+39.1673 	DATA 	Keypress: escape

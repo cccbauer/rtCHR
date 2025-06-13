@@ -1,0 +1,70 @@
+PsychoPy Environment Setup on Ubuntu (Anaconda-based, with HDMI Monitor)
+
+This file summarizes the actual steps taken to set up PsychoPy on our Ubuntu machine with Anaconda and a second monitor connected via HDMI.
+
+1. System Overview
+------------------
+- OS: Ubuntu
+- Main Display: eDP-1 (1920x1080)
+- External Monitor (HDMI): HDMI-1-0 (1920x1080)
+- Combined desktop resolution: 3840x1080
+
+2. Create PsychoPy Conda Environment
+-------------------------------------
+Commands used:
+
+    conda create -n psychopy python=3.9
+    conda activate psychopy
+    pip install psychopy[full]
+
+3. Install System Dependencies
+------------------------------
+To ensure PsychoPy runs with full video/audio/multimedia support, these packages were installed:
+
+    sudo apt install libgstreamer1.0-0 libglib2.0-0 libnss3 libxss1 \
+                     libatk-bridge2.0-0 libgtk-3-0 libgconf-2-4 libasound2
+
+4. PsychoPy Test Script
+-----------------------
+We created a test script (`test_window.py`) to verify the HDMI output:
+
+    from psychopy import visual, core
+
+    win = visual.Window(size=(1920, 1080), fullscr=True, screen=1, color='black')
+    stim = visual.TextStim(win, text="Hello HDMI!", color='white')
+    stim.draw()
+    win.flip()
+    core.wait(3)
+    win.close()
+    core.quit()
+
+This was run using:
+
+    python test_window.py
+
+5. Enable and Mirror HDMI Display
+---------------------------------
+Using xrandr to check displays and mirror them:
+
+    xrandr
+    sudo apt install x11-xserver-utils   # installed when xrandr was missing
+    xrandr --output HDMI-1-0 --mode 1920x1080 --same-as eDP-1
+
+6. Add Bash Alias to Automate Environment Setup
+-----------------------------------------------
+Edited ~/.bashrc and added:
+
+    alias runpsychopy='conda activate psychopy && cd ~/psychopy_project'
+
+Then reloaded the config:
+
+    source ~/.bashrc
+
+7. Usage
+--------
+Now, we just run:
+
+    runpsychopy
+
+This activates the conda environment and switches to our working directory.
+
